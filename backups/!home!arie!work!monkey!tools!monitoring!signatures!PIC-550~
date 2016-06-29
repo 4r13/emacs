@@ -1,0 +1,8 @@
+---
+  - fileToScan: 'test.stratolog'
+    regex: '5_snl_clique'
+    expectedStatus: 'found'
+
+  - fileToScan: 'test.stratolog'
+    regex: 'TestFailureException: TS_ASSERT_PREDICATE_TIMEOUT'
+    expectedStatus: 'found'

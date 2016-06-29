@@ -1,0 +1,11 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch noam/docker
+# Your branch is up-to-date with 'origin/noam/docker'.
+#
+# Changes to be committed:
+#	modified:   packaging/docker-registry.service
+#	modified:   packaging/registry-pusher.service
+#	modified:   packaging/registry-syncer.service
+#

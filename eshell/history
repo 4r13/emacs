@@ -1,0 +1,5 @@
+ls -la
+./env 
+git status
+./env 
+export | grep path

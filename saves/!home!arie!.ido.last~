@@ -1,0 +1,539 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/arie/work/strato-pylint/" . "config/")
+ ("/usr/local/share/" . "applications/")
+ ("/usr/local/lib/python2.7/dist-packages/" . "pylint/")
+ ("/usr/local/lib/python2.7/" . "dist-packages/")
+ ("/usr/local/lib/" . "python2.7/")
+ ("/usr/lib/python3.4/" . "distutils/")
+ ("/usr/lib/python3/" . "dist-packages/")
+ ("/usr/local/" . "bin/")
+ ("/home/arie/.emacs.d/elpa/" . "flycheck-20160430.610/")
+ ("/home/arie/.emacs.d/" . "elpa/")
+ ("/home/arie/work/flycheck/" . "doc/")
+ ("/home/arie/PycharmProjects/" . "codejam/")
+ ("/home/arie/work/hammock/" . "hammock/")
+ ("/usr/lib/python2.7/" . "dist-packages/")
+ ("/home/arie/work/melet-api/" . "etc/")
+ ("/home/arie/work/stratoconsts/py/strato/" . "stratoconsts/")
+ ("/home/arie/work/stratoconsts/py/" . "strato/")
+ ("/home/arie/work/stratoconsts/" . "py/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/policy_store/resources/" . "v2/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/policy_store/" . "resources/")
+ ("/home/arie/work/strato_kv/build/" . "rpms/")
+ ("/home/arie/work/symphony-client/" . "symphony_client/")
+ ("/home/arie/work/rootfs-star/build/" . "version/")
+ ("/home/arie/code_jam/" . "phone_number/")
+ ("/home/arie/abacus_work/abacus/py/strato/installation/" . "common/")
+ ("/home/arie/work/netmanager/py/strato/" . "netmanager/")
+ ("/home/arie/work/strato_kv/testing/" . "racktest_seeds/")
+ ("/var/lib/buildroot_pic/usr/lib/python2.7/" . "site-packages/")
+ ("/var/lib/buildroot_pic/usr/lib/" . "python2.7/")
+ ("/var/lib/buildroot_pic/usr/" . "lib/")
+ ("/var/lib/buildroot_pic/" . "usr/")
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/internal/" . "v1/")
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/" . "nodedapi/")
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/" . "cluster/")
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/" . "v2/")
+ ("/home/arie/work/cluster-joiner/py/strato/" . "cluster_joiner/")
+ ("/home/arie/work/cluster-joiner/py/" . "strato/")
+ ("/home/arie/work/cluster-joiner/" . "py/")
+ ("/home/arie/work/strato_kv/racktests/" . "basic/")
+ ("/home/arie/work/harbour/harbour/" . "managers/")
+ ("/home/arie/work/netmanager/py/weaver/" . "agent/")
+ ("/home/arie/work/netmanager/py/" . "strato/")
+ ("/home/arie/work/netmanager/" . "packaging/")
+ ("/home/arie/work/rackattack-api/py/" . "rackattack/")
+ ("/home/arie/work/rackattack-api/" . "py/")
+ ("/home/arie/work/openstack-neutron/frustrato/centos/" . "SPECS/")
+ ("/home/arie/work/openstack-neutron/frustrato/" . "centos/")
+ ("/home/arie/work/openstack-neutron/" . "frustrato/")
+ ("/home/arie/work/strato-common/strato_common/" . "multithreading/")
+ ("/home/arie/work/strato_kv/py/strato/consul/" . "bin/")
+ ("/home/arie/work/strato-common/" . "strato_common/")
+ ("/home/arie/work/datalayer_events/py/" . "datalayer_events/")
+ ("/home/arie/work/datalayer_events/" . "py/")
+ ("/home/arie/work/strato_kv/py/strato/noded/monitor/" . "plugins/")
+ ("/home/arie/work/strato_kv/py/strato/noded/" . "monitor/")
+ ("/home/arie/work/rabbitmq-standalone/py/strato/" . "rabbitmq/")
+ ("/home/arie/abacus_work/abacus/py/strato/common/" . "rpc/")
+ ("/home/arie/work/strato_kv/unittests/" . "clusterd/")
+ ("/home/arie/work/strato_kv/packaging/" . "nodedapi/")
+ ("/home/arie/consul_tree/src/github.com/hashicorp/consul/command/" . "agent/")
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/" . "api/")
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/" . "resources/")
+ ("/home/arie/consul_tree/src/github.com/hashicorp/consul/" . "consul/")
+ ("/home/arie/work/pyracktest/py/strato/racktest/infra/" . "seed/")
+ ("/home/arie/work/mysql-wrapper/packaging/" . "mysql_wrapper/")
+ ("/home/arie/work/mysql-wrapper/py/" . "mysql_health/")
+ ("/home/arie/work/mysql-wrapper/" . "sh/")
+ ("/home/arie/work/sagittarius/py/strato/sagittarius/" . "api/")
+ ("/home/arie/consul_tree/src/github.com/hashicorp/" . "serf/")
+ ("/home/arie/consul_tree/src/github.com/" . "hashicorp/")
+ ("/home/arie/consul_tree/" . "src/")
+ ("/home/arie/consul_tree/src/" . "github.com/")
+ ("/home/arie/abacus_work/abacus/sh/" . "services/")
+ ("/home/arie/abacus_work/abacus/build/" . "rpm/")
+ ("/home/arie/abacus_work/abacus/tools/packaging/" . "nrad/")
+ ("/home/arie/work/postinstaller/py/strato/" . "postinstaller/")
+ ("/home/arie/work/postinstaller/py/" . "strato/")
+ ("/home/arie/work/postinstaller/" . "py/")
+ ("/home/arie/work/rabbitmq-standalone/py/" . "strato/")
+ ("/home/arie/work/rabbitmq-standalone/" . "py/")
+ ("/home/arie/work/strato-mq/py/" . "strato/")
+ ("/home/arie/work/rootfs-runtime-build/build/root.tmp/usr/lib/python2.7/site-packages/" . "hammock/")
+ ("/home/arie/work/rootfs-runtime-build/build/root.tmp/usr/local/" . "lib/")
+ ("/home/arie/work/rootfs-runtime-build/build/root.tmp/usr/lib/python2.7/" . "site-packages/")
+ ("/home/arie/work/rootfs-runtime-build/build/root.tmp/usr/lib/" . "python2.7/")
+ ("/home/arie/work/rootfs-runtime-build/build/root.tmp/usr/" . "lib/")
+ ("/home/arie/work/rootfs-datalayer-subsys/build/root/usr/lib/python2.7/site-packages/" . "hammock/")
+ ("/home/arie/work/rootfs-datalayer-subsys/build/root/usr/lib/python2.7/" . "site-packages/")
+ ("/home/arie/work/rootfs-datalayer-subsys/build/root/usr/lib/" . "python2.7/")
+ ("/home/arie/work/rootfs-datalayer-subsys/build/root/usr/" . "lib/")
+ ("/home/arie/work/rootfs-datalayer-subsys/build/root/" . "usr/")
+ ("/home/arie/work/rootfs-datalayer-subsys/build/" . "root/")
+ ("/home/arie/work/rootfs-datalayer-subsys/" . "build/")
+ ("/home/arie/work/strato_kv/logs.whiteboxtest/" . "whiteboxtest.3_service_monitoring/")
+ ("/home/arie/work/pycommonmultithreading/py/strato/common/" . "multithreading/")
+ ("/home/arie/work/pycommonmultithreading/py/strato/" . "common/")
+ ("/home/arie/work/pycommonmultithreading/py/" . "strato/")
+ ("/home/arie/work/pycommonmultithreading/" . "py/")
+ ("/home/arie/abacus_work/pycommonmultithreading/py/strato/common/" . "multithreading/")
+ ("/home/arie/abacus_work/pycommonmultithreading/py/strato/" . "common/")
+ ("/home/arie/abacus_work/pycommonmultithreading/py/" . "strato/")
+ ("/home/arie/abacus_work/pycommonmultithreading/" . "py/")
+ ("/home/arie/abacus_work/pycommonlog/py/strato/" . "common/")
+ ("/home/arie/abacus_work/pycommonlog/py/" . "strato/")
+ ("/home/arie/abacus_work/pycommonlog/" . "py/")
+ ("/home/arie/work/strato-mq/build/bring/" . "python-oslo-messaging/")
+ ("/home/arie/work/strato-mq/build/" . "bring/")
+ ("/home/arie/work/python-oslo-messaging/oslo_messaging/" . "_drivers/")
+ ("/home/arie/work/python-oslo-messaging/" . "oslo.messaging/")
+ ("/home/arie/work/rootfs-star/sh/services/" . "control/")
+ ("/home/arie/work/pyracktest/py/strato/racktest/hostundertest/" . "builtinplugins/")
+ ("/home/arie/work/strato-kmods/py/" . "plugins/")
+ ("/home/arie/work/strato-kmods/" . "py/")
+ ("/home/arie/work/rootfs-star/sh/" . "services/")
+ ("/home/arie/work/strato-mq/testing/" . "rpc_callers/")
+ ("/home/arie/work/strato-mq/" . "py/")
+ ("/home/arie/work/rootfs-star/py/strato/installation/" . "services/")
+ ("/home/arie/work/rootfs-star/py/strato/" . "installation/")
+ ("/home/arie/work/rootfs-star/py/" . "strato/")
+ ("/home/arie/work/rootfs-star/" . "py/")
+ ("/home/arie/work/monkey/py/strato/common/" . "seeds/")
+ ("/home/arie/work/openstack-nova/nova/scheduler/" . "weights/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/stats/" . "types/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/" . "stats/")
+ ("/home/arie/work/python-oslo-messaging/oslo/" . "messaging/")
+ ("/home/arie/abacus_work/abacus/tools/ersatz_harbour/harbour/" . "consts/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/common/" . "sla/")
+ ("/home/arie/work/openstackapi/py/strato/sla/" . "internalapi/")
+ ("/home/arie/abacus_work/abacus/tools/ersatz_harbour/" . "harbour/")
+ ("/home/arie/abacus_work/abacus/tools/" . "packaging/")
+ ("/home/arie/abacus_work/openstackapi/py/strato/sla/" . "internalapi/")
+ ("/home/arie/abacus_work/openstackapi/py/strato/" . "sla/")
+ ("/home/arie/abacus_work/openstackapi/py/" . "strato/")
+ ("/home/arie/abacus_work/openstackapi/" . "py/")
+ ("/home/arie/work/runtime-racktest-common/py/infra/" . "scenariodecorators/")
+ ("/home/arie/work/sagittarius/py/strato/test/" . "infra/")
+ ("/home/arie/work/sagittarius/py/strato/" . "sagittarius/")
+ ("/home/arie/work/sagittarius/py/" . "strato/")
+ ("/home/arie/work/sagittarius/" . "py/")
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/" . "gradrpc/")
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/" . "abacusapi/")
+ ("/home/arie/abacus_work/abacusapi/py/strato/" . "runtime/")
+ ("/home/arie/abacus_work/abacusapi/py/" . "strato/")
+ ("/home/arie/abacus_work/abacusapi/" . "py/")
+ ("/home/arie/work/python-oslo-messaging/oslo/messaging/" . "_drivers/")
+ ("/home/arie/abacus_work/strato-plop/py/strato/common/" . "plop/")
+ ("/home/arie/abacus_work/strato-plop/py/strato/" . "common/")
+ ("/home/arie/abacus_work/strato-plop/py/" . "strato/")
+ ("/home/arie/abacus_work/strato-plop/" . "py/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/grad/initialplacement/" . "nova/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/grad/" . "tests/")
+ ("/home/arie/abacus_work/runtime-racktest-common/py/" . "plugins/")
+ ("/home/arie/abacus_work/runtime-racktest-common/" . "py/")
+ ("/home/arie/abacus_work/strato-kmods/py/" . "seeds/")
+ ("/home/arie/abacus_work/strato-kmods/" . "py/")
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/" . "common/")
+ ("/home/arie/abacus_work/abacus/py/strato/" . "runtime/")
+ ("/home/arie/abacus_work/abacus/py/" . "strato/")
+ ("/home/arie/abacus_work/abacus/" . "py/")
+ ("/home/arie/work/openstack-nova/nova/openstack/" . "common/")
+ ("/home/arie/work/harbour/py/strato/harbour/" . "resources/")
+ ("/home/arie/work/harbour/py/strato/" . "harbour/")
+ ("/home/arie/work/harbour/py/" . "strato/")
+ ("/home/arie/work/harbour/" . "harbour/")
+ ("/home/arie/work/abacus/py/strato/runtime/nrad/algorithms/" . "memallocation/")
+ ("/home/arie/abacus_work/" . "abacus/")
+ ("/home/arie/work/openstackapi/py/strato/" . "openstackapi/")
+ ("/home/arie/work/openstackapi/py/" . "strato/")
+ ("/home/arie/work/openstackapi/" . "py/")
+ ("/home/arie/work/openstack-nova/nova/" . "scheduler/")
+ ("/home/arie/work/abacus/py/strato/runtime/grad/initialplacement/" . "nova/")
+ ("/home/arie/work/abacus/py/strato/runtime/grad/" . "initialplacement/")
+ ("/home/arie/work/strato_kv/docker/node/etc/stratoscale/clustermanager/" . "services/")
+ ("/home/arie/work/strato_kv/docker/node/etc/stratoscale/" . "clustermanager/")
+ ("/home/arie/work/strato_kv/docker/node/etc/" . "stratoscale/")
+ ("/home/arie/work/strato_kv/docker/node/" . "etc/")
+ ("/home/arie/work/strato_kv/logs.dockertest/test13stateflows/" . "node_1/")
+ ("/home/arie/work/strato_kv/logs.dockertest/" . "test13stateflows/")
+ ("/home/arie/work/pylogdump/py/strato/" . "logdump/")
+ ("/home/arie/work/pylogdump/py/" . "strato/")
+ ("/home/arie/work/pylogdump/" . "py/")
+ ("/home/arie/work/strato-plop/py/strato/common/" . "plop/")
+ ("/home/arie/work/strato-plop/py/strato/" . "common/")
+ ("/home/arie/work/strato-plop/py/" . "strato/")
+ ("/home/arie/work/strato-plop/" . "py/")
+ ("/home/arie/work/abacus/py/strato/runtime/nrad/" . "nradagent/")
+ ("/home/arie/work/abacus/tools/ersatz_harbour/" . "harbour/")
+ ("/home/arie/work/abacus/tools/" . "ersatz_harbour/")
+ ("/home/arie/work/abacus/py/strato/runtime/common/" . "sla/")
+ ("/home/arie/work/openstack-nova/" . "nova/")
+ ("/home/arie/work/strato_kv/docker/" . "tests/")
+ ("/home/arie/work/openstack-cinder/cinder/openstack/" . "common/")
+ ("/home/arie/work/openstack-cinder/cinder/" . "openstack/")
+ ("/home/arie/work/openstack-cinder/" . "cinder/")
+ ("/home/arie/work/pycommonlog/py/strato/common/" . "log/")
+ ("/home/arie/work/pycommonlog/py/strato/" . "common/")
+ ("/home/arie/work/pycommonlog/py/" . "strato/")
+ ("/home/arie/work/pycommonlog/" . "py/")
+ ("/home/arie/work/strato_kv/py/strato/" . "nodedapi/")
+ ("/home/arie/work/monkey/py/strato/tests/" . "basetests/")
+ ("/etc/schroot/" . "chroot.d/")
+ ("/etc/" . "schroot/")
+ ("/home/arie/work/strato_kv/py/" . "strato/")
+ ("/home/arie/work/strato_kv/infra/strato_kv/" . "consulutils/")
+ ("/home/arie/work/strato_kv/infra/" . "strato_kv/")
+ ("/home/arie/work/pydonkey/py/strato/donkey/" . "guests/")
+ ("/home/arie/work/pydonkey/py/strato/" . "donkey/")
+ ("/home/arie/work/pydonkey/py/" . "strato/")
+ ("/home/arie/work/pydonkey/" . "py/")
+ ("/home/arie/work/osmosis/" . "packaging/")
+ ("/home/arie/work/northbound/py/strato/northbound/api/" . "resources/")
+ ("/home/arie/work/northbound/py/strato/northbound/" . "api/")
+ ("/home/arie/work/northbound/py/strato/" . "northbound/")
+ ("/home/arie/work/northbound/py/" . "strato/")
+ ("/home/arie/work/northbound/" . "py/")
+ ("/home/arie/work/abacusapi/py/strato/runtime/abacusapi/" . "stats/")
+ ("/home/arie/work/abacusapi/py/strato/runtime/" . "abacusapi/")
+ ("/home/arie/work/abacusapi/py/strato/" . "runtime/")
+ ("/home/arie/work/abacusapi/py/" . "strato/")
+ ("/home/arie/work/abacusapi/" . "py/")
+ ("/home/arie/work/monkey/py/strato/" . "tests/")
+ ("/home/arie/work/monkey/py/" . "strato/")
+ ("/home/arie/work/spout/py/strato/spout/tests/infra/rackattackvirtual/" . "common/")
+ ("/home/arie/work/spout/py/strato/spout/tests/infra/" . "rackattackvirtual/")
+ ("/home/arie/work/spout/py/strato/spout/tests/" . "infra/")
+ ("/home/arie/work/nova/nova/" . "compute/")
+ ("/home/arie/work/nova/" . "nova/")
+ ("/home/arie/work/spout/py/strato/spout/" . "utils/")
+ ("/home/arie/work/spout/py/strato/" . "spout/")
+ ("/home/arie/work/spout/py/" . "strato/")
+ ("/home/arie/work/spout/" . "whiteboxtest/")
+ ("/home/arie/work/rootfs-runtime-build/build/root/usr/lib/" . "python2.7/")
+ ("/home/arie/work/rootfs-runtime-build/build/root/usr/" . "lib/")
+ ("/home/arie/work/rootfs-runtime-build/build/root/" . "usr/")
+ ("/usr/lib/" . "python3.4/")
+ ("/usr/" . "local/")
+ ("/home/arie/work/rootfs-runtime-build/build/root.tmp/tmp/" . "hammock/")
+ ("/home/arie/work/rootfs-runtime-build/build/root.tmp/" . "usr/")
+ ("/home/arie/work/rootfs-runtime-build/build/" . "root.tmp/")
+ ("/home/arie/work/rootfs-runtime-build/" . "build/")
+ ("/home/arie/work/strato_kv/" . "infra/")
+ ("/home/arie/work/monkey/racktests/" . "nodes/")
+ ("/home/arie/work/monkey/" . "racktests/")
+ ("/home/arie/work/pyracktest/py/strato/racktest/" . "infra/")
+ ("/home/arie/work/pyracktest/py/strato/" . "racktest/")
+ ("/home/arie/work/pyracktest/py/" . "strato/")
+ ("/home/arie/work/pyracktest/" . "py/")
+ ("/home/arie/work/runtime-racktest-common/py/" . "plugins/")
+ ("/home/arie/" . ".emacs.d/")
+ ("/home/" . "arie/")
+ ("/home/arie/work/abacus/sh/" . "services/")
+ ("/home/arie/work/abacus/py/strato/runtime/" . "grad/")
+ ("/home/arie/work/abacus/py/strato/" . "runtime/")
+ ("/home/arie/work/abacus/py/" . "strato/")
+ ("/home/arie/work/abacus/" . "py/")
+ ("/home/arie/work/runtime-racktest-common/" . "tools/")
+ ("/var/lib/" . "buildroot_pic/")
+ ("/var/" . "lib/")
+ ("/" . "usr/")
+ ("/home/arie/work/" . "monkey/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/arie/.emacs.d/"
+ "/home/arie/.emacs.d/elpa/flycheck-20160430.610/"
+ "/home/arie/work/monkey/racktests/nodes/"
+ "/home/arie/work/monkey/racktests/failures/"
+ "/home/arie/work/strato_kv/infra/strato_kv/consulutils/"
+ "/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/"
+ "/home/arie/.emacs.d/elpa/better-defaults-20160127.2318/"
+ "/home/arie/work/rootfs-star/"
+ "/home/arie/work/monkey/py/strato/tests/"
+ "/home/arie/.emacs.d/elpa/drag-stuff-20150717.532/"
+ "/home/arie/work/monkey/"
+ "/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/"
+ "/usr/local/bin/"
+ "/home/arie/work/strato_kv/py/strato/nodedapi/"
+ "/home/arie/work/strato_kv/"
+ "/home/arie/work/docker-registry/packaging/"
+ "/home/arie/work/monkey/py/strato/tests/basetests/"
+ "/home/arie/work/strato_kv/py/strato/consul/"
+ "/home/arie/work/rootfs-star/py/strato/installation/services/"
+ "/home/arie/work/monkey/tools/"
+ "/home/arie/"
+ "/home/arie/work/monkey/py/racktestplugins/"
+ "/home/arie/work/pyracktest/py/strato/racktest/infra/"
+ "/home/arie/work/strato_kv/py/strato/noded/"
+ "/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi/"
+ "/home/arie/abacus_work/abacus/py/strato/runtime/common/"
+ "/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/gradrpc/"
+ "/home/arie/work/hammock/hammock/"
+ "/home/arie/work/northbound/py/strato/northbound/api/resources/"
+ "/home/arie/.config/"
+ "/home/arie/work/strato-pylint/config/"
+ "/home/arie/code_jam/phone_number/"
+ "/home/arie/work/strato-pylint/"
+ "/home/arie/Downloads/"
+ "/home/arie/code_jam/sports/"
+ "/home/arie/.emacs.d/elpa/flycheck-20160420.1312/"
+ "/home/arie/abacus_work/abacus/py/strato/runtime/nrad/"
+ "/home/arie/work/strato_kv/py/strato/clusterd/"
+ "/home/arie/work/strato_kv/unittests/clusterd/"
+ "/usr/local/lib/python2.7/dist-packages/pylint/"
+ "/usr/bin/"
+ "/home/arie/.emacs.d/elpa/flycheck-mypy-20160220.1432/"
+ "/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/registries/"
+ "/home/arie/abacus_work/abacus/py/strato/runtime/grad/"
+ "/home/arie/work/rootfs-runtime-build/"
+ "/home/arie/work/strato_kv/py/strato/cmcommon/"
+ "/home/arie/abacus_work/abacus/"
+ "/home/arie/work/hammock/"
+ "/home/arie/work/rootfs-star-base/"
+ "/home/arie/work/strato_kv/py/strato/nodedapi/resources/internal/v1/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "flycheck.el"
+ "3_node_maintenance_basic_flow.py"
+ "1_node_leave_basic_flow.py"
+ "6_datalayer_services_restart.py.disable"
+ "nodestatusaccess.py"
+ "clusterstatusretriever.py"
+ "stateflowsapi.py"
+ "better-defaults.el"
+ "rpm_list.Makefile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/arie/.emacs.d/elpa/flycheck-20160430.610/" (22314 994 619816 416000) "flycheck.el" "./" "flycheck-pkg.el" "flycheck-buttercup.el" "flycheck-autoloads.el" "flycheck.elc" "flycheck-ert.elc" "flycheck-ert.el" "../")
+
+ ("/home/arie/.emacs.d/" (22314 1013 712042 9000) "eproject.lst" "bookmarks" "session.10a0ccfc5ebb295f04145250694577328100000019470045" ".git/" "session.10ca6d2bab8559abec145206157141211900000022430046" "abbrev_defs" "pycolors.py" "tramp" "session.10e90e3ebde99e6b17145059212956739800000024060046" "session.10c2d2b589766e6bcf145569649987638200000022450046" "init.el~" "session.10747566621657c3f0145984955389743600000023380051" "./" "session.10f87f2897df280f6e144602449746037700000026840046" "session.10f974e774101ce50144886391974292400000022500046" "session.1067967753196fd2cd145001535764401100000023500046" "session.101188e33a76e02f4d144964062266107500000024050045" "session.105101d7872cd8349145311798493552800000021140045" "session.109dbb5d7574419ac9145733115084136700000020970045" "places" "session.103fdb5a3b63e58a2f146228187022168200000020670048" "session.1011b51174d5db1f1c144888860873652600000209460045" "request/" "elpa/" "auto-save-list/" "session.10d860b92ccacd214d144998685243373600000020930046" "session.1089d16fe960c07058145145705677478200000028300046" "lisp/" "saves/" "session.10eb28fc25bb941cd144843197770214100000023970046" "session.1015a92246b472b0e1460205496938400000025930045" "elpa.old/" "session.105d53e4e13fdbe039144828539152182100000022960045" "README" "session.10fd35a0ec8e5f08aa144474400769281600000018430068" "session.1043230da79c94ab33146234885935631100000018280052" "eproject.lst<2>" "auto-complete-1.3/" "session.1028c1d320b210000144307679000000014290137" "init.el" "session.101352f1cd12b995a1146086984127610300000025780049" "floobits/" "ac-comphist.dat" "session.10dfffc27ee3e20c1145804319234113100000024230046" "session.10c2cc86ed69b8c166145262392955569700000018760046" "golang/" "../" "session.10d0de3cd2e98f6cc4145674333367097900000024710046" "eshell/" ".python-environments/" "backups/")
+
+ ("/home/arie/" (22314 1013 736042 293000) "tmp/" "public_consul_tree/" "abacus_work/" "code_jam/" ".xsession-errors.old" ".mozilla/" "Music/" ".ICEauthority" "Downloads/" "rpmbuild/" ".config/" "Public/" ".ipython/" "VirtualBox VMs/" ".ido.last" "PlayOnLinux's virtual drives/" ".npm/" "temp.py" ".netrc" ".kchmviewer/" ".aspell.en.pws" "Python-3.5.0.tgz" ".emacs.d.old/" "test2/" ".cache/" ".hplip/" ".bash_history" ".jupyter/" ".gimp-2.8/" ".thumbnails/" ".PlayOnLinux/" "vpnc_haifa.sh" "Documents/" "PycharmProjects/" "./" ".gnome2/" ".pylint.d/" ".thunderbird/" "el-get/" ".PyCharm2016.1/" ".gnome2_private/" "Python-3.5.0/" ".xinputrc" ".profile" ".gvfs/" ".gnupg/" "%pylab/" "Videos/" "youtube/" "vpn_config" ".Xauthority.backup" ".fctsslvpnhistory" ".dmrc" ".emacs.d/" ".sudo_as_admin_successful" "work/" "Desktop/" ".emacs.d-20160502.tar.gz" "test" "vpn_config.conf" "emacs24" "el-get.old/" "Templates/" "Pictures/" ".bashrc" ".aspell.en.prepl" ".compiz/" "forticlientsslvpn/" ".pip/" ".erlang.cookie" ".local/" "jedi/" "elpa.old/" ".lesshst" ".matplotlib/" ".gnome/" ".gconf/" ".bash_logout" ".gitconfig" "floobits/" ".java/" ".pki/" "examples.desktop" "resolv.conf" ".novaclient/" ".floorc.json" ".ssh/" ".python_history" "../" ".dbus/" "consul_tree/" "python-epc/" ".emacs.d.tar.gz" "auto-complete/" ".xsession-errors" ".Xauthority" "test.py" ".bashrc~" "temp/" ".docker/")
+
+ ("/home/arie/work/monkey/racktests/nodes/" (22314 868 430333 632000) "1_node_leave_basic_flow.pyc" "1_node_leave_basic_flow.py" "2_node_state_machine.py" "3_node_maintenance_basic_flow.py" "./" "3_node_maintenance_basic_flow.pyc" "2_node_state_machine.pyc" "../")
+
+ ("/home/arie/work/monkey/" (22313 53594 189918 239000) "tools/" "README.md" ".connections/" "dirbalak.manifest" "upseto.manifest" ".git/" "env" "logs.racktest/" "racktests/" "./" ".gitignore" "full_tempest_test_list.txt" "solvent.manifest" "resources/" "debug_log_configuration/" "build/" "testfiles/" "py/" "../" "Makefile")
+
+ ("/home/arie/.emacs.d/elpa/magit-20160501.1814/" (22313 58639 363491 189000) "magit-submodule.el" "magit-git.el" "magit-blame.el" "magit-utils.elc" "magit-section.elc" "magit-pkg.el" "magit.info-2" "magit-blame.elc" "magit-git.elc" "git-rebase.el" "magit-autorevert.el" "dir" "./" "magit-commit.elc" "magit-log.el" "magit-core.elc" "magit-utils.el" "magit-sequence.el" "magit-submodule.elc" "magit-mode.el" "git-rebase.elc" "magit-commit.el" "AUTHORS.md" "magit-apply.el" "magit-section.el" "magit-sequence.elc" "magit-autoloads.el" "magit-bisect.elc" "magit-mode.elc" "magit.elc" "magit-stash.elc" "magit-remote.elc" "magit-extras.el" "magit-core.el" "COPYING" "magit-diff.elc" "magit-bisect.el" "magit-process.el" "magit.el" "magit-ediff.el" "magit-wip.el" "magit-wip.elc" "magit-ediff.elc" "magit.info-1" "magit-process.elc" "magit.info" "magit-diff.el" "../" "magit-stash.el" "magit-remote.el" "magit-log.elc" "magit-extras.elc" "magit-autorevert.elc" "magit-apply.elc")
+
+ ("/home/arie/.emacs.d/elpa/" (22313 52264 108514 227000) "material-theme-20160302.1334/" "gnupg/" "epl-20150517.433/" "tramp-term-readme.txt" "s-20160429.727/" "async-20160503.917/" "git-commit-mode-20140110.833/" "live-py-mode-readme.txt" "python-environment-20150310.153/" "with-editor-20160408.201/" "./" "ein-20160422.629/" "py-autopep8-20151231.614/" "material-theme-readme.txt" "tramp-term-20141104.1345/" "seq-2.15/" "cl-generic-0.2/" "pkg-info-20150517.443/" "auto-complete-20160416.604/" "ctable-20140304.1659/" "concurrent-20160109.2046/" "drag-stuff-20160426.2331/" "git-commit-20160425.430/" "archives/" "jedi-core-20160501.2043/" "elscreen-multi-term-readme.txt" "better-defaults-readme.txt" "dash-20160501.1123/" "popup-20160409.2133/" "jedi-20160425.2156/" "let-alist-1.0.4/" "flycheck-20160430.610/" "websocket-20160227.2122/" "bash-completion-20150514.728/" "magit-popup-20160425.430/" "epc-20140609.2234/" "git-rebase-mode-20140110.833/" "request-20160424.2032/" "jedi-readme.txt" "ssh-readme.txt" "magit-20160501.1814/" "ssh-20120904.1342/" "../" "deferred-20160109.2046/")
+
+ ("/home/arie/work/monkey/racktests/failures/" (22313 48316 992256 396000) "306_node_maintenance.py" "6_node_crash.py" "15_fail_noded_forever.pyc" "6_node_crash.pyc" "1_reboot_agent.py" "14_node_crash_scenarios.pyc" "7_mancala_network_instability.py" "8_crash_all_nodes.py" "6_datalayer_services_restart.py.disable" "5_snl_clique.py" "100_start_vm_after_node_crash.py.disabled" "4_stop_start_storage.py" "14_node_crash_scenarios.py" "./" "11_node_fail_mgmt_interface.py" "10_node_fail_data_interface.pyc" "13_cluster_maintenance.py" "10_node_fail_data_interface.py" "2_watchdog_service_restart.py" "3_verify_kdump_works.py" "../" "6_shutdown_network_interface.py" "13_cluster_maintenance.pyc" "1_reboot_agent.pyc" "100_start_vm_after_node_crash.pyc" "15_fail_noded_forever.py" "9_datalayer_services.py")
+
+ ("/home/arie/work/monkey/racktests/" (22295 4710 40749 759000) "iridium/" "REST/" "openstack/" "mgmt_subsystem/" "benchmark/" "mysql/" "./" "highavailability/" "tempest/" "openstackapi/" "acceptance/" "subsystem_pic/" "longevity/" "clusterjoiner/" "docker/" "network/" "datalayer/" "cli/" "flowtests/" "storage/" "__init__.py" "chimpanzee/" "v2v/" "montecarlo/" "openstackclient/" "asylum/" "../" "disaster_recovery/" "scale/" "nodes/" "failures/")
+
+ ("/home/arie/.emacs.d/elpa/dash-20160501.1123/" (22313 51439 467658 126000) "dash.el" "./" "dash-pkg.el" "dash.elc" "dash-autoloads.el" "../" "dash-pkg.elc")
+
+ ("/home/arie/work/strato_kv/infra/strato_kv/consulutils/" (22312 15487 125285 585000) "consulkeyvaluestoreclient.py" "consulmembersclient.py" "consulconsts.py" "nodestatusaccess.pyc" "__init__.pyc" "globalhealthchecksclient.py" "consulcache.py" "graciousrequests.pyc" "subscriptions.py" "resourcelock.pyc" "consulconsts.pyc" "./" "graciousrequests.py" "nodestatusaccess.py" "consulmembersclient.pyc" "consulsessionclient.py" "consulsessionclient.pyc" "leaderelectionclient.py" "consulserverslistaccess.pyc" "__init__.py" "consulagentaccess.py" "consulagentaccess.pyc" "lockclient.py" "resourcelock.py" "lockclient.pyc" "leaderelectionclient.pyc" "subscriptions.pyc" "globalhealthchecksclient.pyc" "../" "consulserverslistaccess.py" "consulkeyvaluestoreclient.pyc")
+
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/" (22312 50326 304282 906000) "stateflowsapi.py" "networksettings.pyc" "connectivity.py" "clusterstatusretriever.pyc" "rpcexceptions.py" "__init__.pyc" "networksettings.py" "connectivity.pyc" "subscriptionmanager.py" "keyvalueaccess.pyc" "clustermanagementapi.py" "./" "registries/" "clustermanagementapi.pyc" "nodedapi/" "statuslogic.py" "consts.py" "consts.pyc" "subscriptionmanager.pyc" "__init__.py" "nodedrpcclient.py" "stateflowsapi.pyc" "rpcexceptions.pyc" "nodedrpcclient.pyc" "stateflowsapiadapter.py" "stateflowsapiadapter.pyc" "keyvalueaccess.py" "../" "clusterstatusretriever.py" "statuslogic.pyc")
+
+ ("/home/arie/work/strato_kv/infra/strato_kv/" (22312 15487 105285 586000) "__init__.pyc" "./" "consulutils/" "dictionaryutils.pyc" "__init__.py" "clustermanagement/" "../" "consulate/" "dictionaryutils.py")
+
+ ("/home/arie/work/strato_kv/infra/" (22231 63566 156276 525000) "./" "strato_kv/" "strato_kv.egg-info/" "__init__.py" "../")
+
+ ("/home/arie/work/strato_kv/build/" (22312 15502 85285 481000) "clusterd.egg.deps" "nodedapi.egg.deps" "./" "consul" "lib/" "consul_web_ui.zip" "noded.egg" "clusterd.egg" "strato_kv.egg" "consul.egg" "nodedapi.egg" "consul.zip" "consul.egg.deps" "noded.egg.deps" "rpms/" "../" "bdist.linux-x86_64/")
+
+ ("/home/arie/work/strato_kv/" (22312 15481 765285 623000) "tools/" ".connections/" "mock_stratoscale_rpc.conf" "dirbalak.manifest" "upseto.manifest" "requirements.txt" "MANIFEST.in" "nodedapi-client/" "LICENSE" ".git/" "README.rst" "testingXnunl4/" "logs.racktest/" "racktests/" "logs.whiteboxtest/" "packaging/" "check_spelling.sh" ".coveragerc" "dist/" ".gitignore" "logging.json" "templates/" "unittests/" "solvent.manifest" "docker/" "strato_kv.Makefile" "rabbit/" "build/" "setup.py" "setup.cfg" ".unittest" "infra/" "htmlcov/" "cleanbuild.sh" "py/" "testing/" "example/" "docker.Makefile" "whiteboxtest/" "strato-requirements.txt" "Makefile" "logs.dockertest/" "../" "./")
+
+ ("/home/arie/work/symphony-client/" (22311 25059 918440 169000) "README.md" "requirements.txt" "MANIFEST.in" ".git/" "./" ".gitignore" "dev-requirements.txt" "solvent.manifest" "client-requirements.txt" "tests/" "demo.py" "issues.md" "setup.py" "setup.cfg" "symphony_client/" "../" "tox.ini" "Makefile")
+
+ ("/home/arie/.emacs.d/elpa/better-defaults-20160127.2318/" (22312 16589 365277 906000) "better-defaults-autoloads.el" "better-defaults.el" "./" "better-defaults-pkg.el" "../" "better-defaults.elc" "better-defaults-pkg.elc")
+
+ ("/home/arie/work/strato_kv/build/rpms/" (22311 21613 718464 179000) "./" "strato-noded-1-0.x86_64.rpm" "strato-clusterd-1-0.x86_64.rpm" "strato_kv-1-0.x86_64.rpm" "consul-1-0.x86_64.rpm" "nodedapi-1-0.x86_64.rpm" "../")
+
+ ("/home/arie/work/rootfs-star/" (22312 14617 581291 644000) "config_jsons/" "dirbalak.manifest" "upseto.manifest" "deployment/" ".git/" "logs.racktest/" "racktests/" "logs.whiteboxtest/" "testinglib/" "./" ".gitignore" "logging_config/" "rpm_list.Makefile" "python_pkgs.Makefile" "logrotation/" "solvent.manifest" "tests/" "uwsgi" "containers.manifest" "yum.repos/" "rpm/" "build/" "nf_conntrack.conf.modprobe" "etc_default_grub" "py/" "../" "strato-docker-registry.cert" "sh/" "chroot.sh" "whiteboxtest/" "docker-engine.Makefile" "Makefile" "nf_conntrack.conf.sysctl")
+
+ ("/home/arie/work/monkey/py/strato/tests/" (22312 13687 61298 126000) "openstackapi.pyc" "vmcontrol.py" "volumecontrol.py" "servicedistribution.py" "disasterrecovery.py" "volumecontrol.pyc" "monkey_host_test.py" "datalayercontroller.py" "reloader.py" "network.pyc" "nodecontrol.pyc" "nodecontrol.py" "monkeytest.py" "clusterupgrade.py" "__init__.pyc" "dockercontrol.pyc" "mancalacontrol.pyc" "clustermanager.pyc" "iridiumcommon/" "clusterjoinercontrol.pyc" "hypervisorstratocluster.pyc" "dockercontrol.py" "servicedistribution.pyc" "imagecontrol.pyc" "openstackapi.py" "./" "basetests/" "testalarm.py" "clustertime.py" "network.py" "monitors/" "cluster.py" "monkeytest.pyc" "openstackrest.pyc" "clustermanager.py" "debug.py" "configfile.py" "stratoapi.pyc" "reloader.pyc" "tempest_logs_parser.py" "hypervisorstratocluster.py" "clusterverifier.py" "mancalacontrol.py" "assets.py" "clusterjoinercontrol.py" "__init__.py" "fioaggregator.py" "clusterupgrade.pyc" "datalayercontroller.pyc" "config.pyc" "clusterverifier.pyc" "cluster.pyc" "montecarlo/" "imagecontrol.py" "vmcontrol.pyc" "stratoapi.py" "iridiumtestcontroller.py" "debug.pyc" "iridiumtestcontroller.pyc" "assets.pyc" "../")
+
+ ("/home/arie/work/pydonkey/" (22275 30492 676283 817000) "tools/" "README.md" "dirbalak.manifest" "upseto.manifest" ".git/" "racktests/" "./" ".gitignore" "solvent.manifest" "py/" "../" "Makefile")
+
+ ("/home/arie/work/pydonkey/py/" (22043 55328 79660 147000) "strato/" "./" "../")
+
+ ("/home/arie/work/pydonkey/py/strato/" (22043 55328 79660 147000) "./" "__init__.py" "donkey/" "../" "common/")
+
+ ("/home/arie/work/pydonkey/py/strato/donkey/" (22275 30504 608284 232000) "seeds/" "__init__.pyc" "plugins/" "./" "workloads/" "monitors/" "tests/" "guests/" "config.py" "carrot.py" "carrot.pyc" "__init__.py" "config.pyc" "rackconfigurationyaml.py" "../" "hypervisors/" "tiles/" "rackconfigurationyaml.pyc")
+
+ ("/home/arie/work/pydonkey/py/strato/donkey/tests/" (22309 63703 186563 274000) "configure.py" "logbeamconfig.pyc" "ftp.pyc" "__init__.pyc" "developercarrottest.pyc" "./" "regularcarrottest.pyc" "plugintest.py" "developercarrottest.py" "sshshortcut.py" "carrottest.py" "#developercarrottest.py#" "configure.pyc" "regularcarrottest.py" "__init__.py" "seedtest.py" "donkeytest.py" "sshshortcut.pyc" "carrottest.pyc" "../")
+
+ ("/home/arie/.emacs.d/elpa/drag-stuff-20150717.532/" (22312 13234 637301 278000) "drag-stuff-pkg.el" "drag-stuff.elc" "./" "drag-stuff.el" "drag-stuff-autoloads.el" "../")
+
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/" (22311 24823 662441 815000) "./" "nodes.py" "cluster.py" "__init__.py" "../")
+
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/" (22311 23109 782453 756000) "policy.json" "./" "resources/" "__init__.py" "nodedapimiddleware.py" "../" "main.py" "uwsgi.ini" "nodedapiservice.py")
+
+ ("/usr/local/" (22301 52168 43698 942000) "share/" "var/" "etc/" "man/" "games/" "sbin/" "./" "lib/" "include/" "bin/" "libexec/" "../" "src/" "go/")
+
+ ("/home/" (22043 50013 467290 23000) "arie/" "./" "../")
+
+ ("/home/arie/work/" (22311 11031 735681 903000) "nova/" "pycommonlog/" "postinstaller-management/" "api-docs/" "cluster-joiner/" "netmanager/" "melet-api/" "rootfs-datalayer-subsys/" "symphony-client/" "pydonkey/" "strato_kvCI3Shr/" "openstack-nova/" "strato-plop/" "asset-api/" "rabbitmq-standalone/" "rackattack-api/" "mysql-wrapper/" "python-oslo-messaging/" "strato_kvXykKli/" "./" "pycommonhardware/" "loggingtools/" "strato-mq/" "chrome-strato-log-viewer/" "pycommonmultithreading/" "strato_kv/" "openstack-keystone/" "strato-pylint/" "openstackapi/" "monkey/" "datalayer_events/" "strato_kvbt2FLU/" "nginx-config/" "strato_kvD1YZit/" "docker-registry/" "strato_kvt2rRUT/" "solvent/" "harbour/" "strato_kvNgCbvc/" "rootfs-centos7-build/" "openstack-neutron/" "strato_kv9sjed6/" "test/" "rootfs-runtime-build/" "logbeam/" "rootfs-star/" "voodoo-mock/" "spout/" "upseto/" "stargate/" "strato_kvsHcrdV/" "strato-kmods/" "abacus/" "northbound/" "stratoconsts/" "strato_kv2lxQih/" ".seedcache/" "hammock/" "strato_kvpjOwm1/" "osmosis/" "rootfs-runtime-subsys/" "openstack-cinder/" "flycheck/" "strato_kv3A2XfA/" "strato-common/" "postinstaller/" "openstack-glance/" "rootfs-star-base/" "sagittarius/" "strato_kvk1wPq_/" "install-jenkins-slave/" "strato_kv7tYMKX/" "../" "FlameGraph/" "pylogdump/" "strato_kvEStoA_/" "pywhiteboxtest/" "abacusapi/" "strato_kvha4L92/" "pyracktest/" "runtime-racktest-common/")
+
+ ("/home/arie/work/strato_kv/packaging/" (22302 4748 187146 641000) "strato-noded.spec" "nodedapi.spec" "strato-clusterd.spec" "clusterd/" "consul.spec" "./" "consul/" "nodedapi/" "../" "noded/")
+
+ ("/home/arie/work/docker-registry/packaging/" (22311 11055 167681 740000) "docker-registry.spec" "./" "registry-pusher.service" "registry-syncer.service" "docker-registry" "deploy-images" "registry-pusher" "../" "logconf.json" "registry-syncer" "docker-registry.service")
+
+ ("/home/arie/work/docker-registry/" (22311 11034 271681 885000) "upseto.manifest" ".git/" "racktests/" "packaging/" "./" ".gitignore" "solvent.manifest" "certs/" "yum.repos/" "py/" "testing/" "../" "Makefile")
+
+ ("/home/arie/work/monkey/py/strato/tests/basetests/" (22311 6736 303711 829000) "base_tempest_test.py" "__init__.pyc" "base_tempest_baseline_test.py" "./" "service_fail.py" "interfaceFailure.pyc" "interfaceFailure.py" "__init__.py" "../" "base_v2v_test.py" "software_upgrades.py")
+
+ ("/home/arie/work/postinstaller/" (22294 1805 12219 565000) "dirbalak.manifest" "upseto.manifest" "requirements.txt" ".git/" "racktests/" "logs.whiteboxtest/" "testinglib/" "./" ".gitignore" "dev-requirements.txt" "solvent.manifest" ".coverage" "postinstaller.Makefile" "rpm/" "build/" "setup.cfg" "build_unittest/" "py/" "../" "sh/" "whiteboxtest/" ".reviewboardrc" "strato-requirements.txt" "Makefile")
+
+ ("/home/arie/work/rootfs-star/.git/" (22311 6317 163714 749000) "config" "HEAD" "FETCH_HEAD" "hooks/" "packed-refs" "./" "ORIG_HEAD" "branches/" "info/" "refs/" ".#COMMIT_EDITMSG" "objects/" "index" "logs/" "../" "description" "COMMIT_EDITMSG")
+
+ ("/home/arie/work/strato_kv/py/strato/consul/" (22311 571 851754 777000) "consulconfig.pyc" "consulaccess.py" "consulhelpers.py" "__init__.pyc" "consulstates.py" "consulstates.pyc" "consulhelpers.pyc" "./" "consulservice.py" "__init__.py" "../" "main.py" "consulservice.pyc" "consulaccess.pyc" "consulconfig.py")
+
+ ("/home/arie/work/harbour/harbour/managers/" (22276 4736 715790 126000) "openstackclientcache.py" "vms.py" "disks.py" "display_strings.py" "snapshots.py" "tenants.py" "images.py" "auth.py" "./" "storage.py" "nodes.py" "cluster.py" "clusterpolicy.py" "publisher.py" "connection.py" "users.py" "clustersettings.py" "config.py" "openstackclientfactory.py" "servermetadata.py" "tasks.py" "__init__.py" "v2v/" "storagepools.py" "volumes.py" "utils/" "networks.py" "appliances.py" "melet_api.py" "tokens.py" "vm_guardian.py" "openstack_resources.py" "../" "types.py" "sla_profiles.py")
+
+ ("/home/arie/work/strato_kv/py/strato/subsystemclients/" (22301 50409 795752 546000) "./" "mancalaaccess.py" "#gradclient.py#" "#__init__.py#" "gradclient.py" "__init__.py" "../")
+
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/internal/v1/" (22302 7260 911070 36000) "./" "services.py" "#candidates.py#" "gradclient.py" "__init__.py" "../" "candidates.py")
+
+ ("/home/arie/abacus_work/abacus/" (22302 11137 318951 857000) "tools/" "dirbalak.manifest" "upseto.manifest" "requirements.txt" ".git/" "logs.racktest/" "racktests/" "logging_conf.json" ".coveragerc" "./" ".gitignore" "clean_build.manifest" "coverage/" "solvent.manifest" "build/" "setup.cfg" ".unittest" "build_unittest/" "abacus.Makefile" "py/" "../" "sh/" "racktest.conf" "Makefile")
+
+ ("/home/arie/work/rootfs-runtime-build/" (22302 3260 991191 980000) "busybox-1.15.1-21.el6_6.x86_64.rpm" "check_version.py" ".git/" "solvent.conf" "rpc.conf" "pycharm-debug.egg" "./" "#strato-requirements.txt#" ".gitignore" "schroot.py" "solvent.manifest" "#Makefile#" "logs_override.json" "build/" "../" "racktest.conf" "strato-requirements.txt" "Makefile")
+
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/registries/" (22303 14816 501441 267000) "host.pyc" "candidate.pyc" "__init__.pyc" "./" "host.py" "__init__.py" "../" "candidate.py")
+
+ ("/home/arie/work/strato-pylint/" (22309 62180 806573 880000) "README.md" "pylint_mylogger.pyc" ".pylintrc" "requirements.txt" ".git/" "./" "pylint.sh" "pylint_mylogger.py" "pep8.sh" "../" "Makefile")
+
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi/" (22309 48546 593228 216000) "tagsprovider.py" "__init__.pyc" "candidatesclient.py" "./" "#nodeshelper.py#" "consts.py" "consts.pyc" "nodeshelper.py" "__init__.py" "../" "candidatesclient.pyc")
+
+ ("/usr/local/bin/" (22309 63045 850567 854000) "ctags" "symilar" "pylint~" "mako-render" "pyreverse.bat" "iptest" "pylint_with_chroot~" "oslo-messaging-zmq-receiver" "jsonschema" "jupyter-serverextension" "easy_install" "lockutils-wrapper" "emacs" "pyflakes" "pbr" "ebrowse" "pyreverse" "emacs-24.4" "./" "jupyter-nbextension" "2to3" "falcon-bench" "raml2html" "pylint-gui" "jupyter-migrate" "jupyter-nbconvert" "pybabel" "epylint" "pylint_with_chroot" "pep8" "python3-config" "idle3" "flake8" "pygmentize" "grep-changelog" "emacsclient" "jediepcserver" "epylint.bat" "rpyc_classic.py" "rpyc_registry.py" "python3.5-config" "flake8~" "ipython2" "jupyter" "iptest2" "pylint-gui.bat" "jupyter-kernelspec" "charm" "jupyter-notebook" "easy_install-2.7" "symilar.bat" "virtualenv-3.5" "python3.5m" "jupyter-trust" "pylint" "ipython" "pylint.bat" "python3.5" "python3" "netaddr" "../" "autopep8" "virtualenv" "oslo-config-generator" "etags" "jupyter-troubleshoot")
+
+ ("/home/arie/work/monkey/py/racktestplugins/" (22309 62025 386574 963000) "nodeproperties.pyc" "coredumpdetector.pyc" "answerfile.pyc" "external_storage_netapp.py" "lvm.py" "kernel.py" "novacompute.py" "failures.py" "network.pyc" "ksnl.pyc" "__init__.pyc" "ksnl.py" "iridium.pyc" "scp.py" "neutron.pyc" "stackdump.py" "cli.pyc" "failures.pyc" "runonvm.py" "nodeproperties.py" "services.pyc" "./" "consul.py" "network.py" "loganalyzer.pyc" "stackdump.pyc" "coredumpdetector.py" "postinstaller.py" "lvm.pyc" "postinstaller.pyc" "services.py" "datalayer.pyc" "mancala.pyc" "__init__.py" "iridium.py" "cli.py" "openstackclient.py" "novacompute.pyc" "datalayer.py" "consul.pyc" "../" "mancala.py" "answerfile.py" "neutron.py")
+
+ ("/home/arie/work/monkey/tools/" (22309 62881 946568 996000) "jiraconf.py" "elkreporter.pyc" "jiracontroller.pyc" "jiraconf.pyc" "test_signatures.py" "checkit" "tzvika.py" "testinprogress.pyc" "testredemption.py" "./" "monitoring/" "rackattackidentifier.pyc" "tempest/" "testinprogress.py" "asher.py" "log2junit.py" "rerunAllocationFailures.py" "style/" "rackattackidentifier.py" "openstack_connect.py" "nodestatustracer.py" "dev-test.py" "v2v_hck.py" "rootfsrev.py" "../" "logconf.json" "jiracontroller.py" "collectLogs.py" "support_allocation.py")
+
+ ("/home/arie/work/strato_kv/py/strato/noded/" (22310 62840 461267 699000) "nodestatemanager.py" "stateflows.py" "clusterinitializer.py" "nodestates.py" "nodestatemanager.pyc" "__init__.pyc" "monitor/" "servicemanager.py" "./" "serviceplacementpolicy.py" "servicehealthreporter.pyc" "nodestatusstatemachine.py" "galerarecovery.py" "exceptions.py" "upgrades.py" "serviceplacementpolicy.pyc" "nodedeventapi.pyc" "health_reporting_thread.py" "servicemanager.pyc" "nodedeventapi.py" "mancalanotifier.py" "__init__.py" "nodehealthchecksclient.pyc" "servicehealthreporter.py" "serviceutils.py" "nodestatetransitions.py" "../" "rpcserver.py" "main.py" "oldnodestates.py" "nodehealthchecksclient.py" "nodestatusstatemachine.pyc" "noded.py" "logconf.json" "nodestates.pyc" "serviceutils.pyc" "crashdetection.py" "servicesummarymonitor.py" "oldnodestates.pyc" "clusterwideactions.py")
+
+ ("/home/arie/work/strato_kv/py/strato/" (22303 20727 525261 59000) "__init__.pyc" "clusterd/" "cmcommon/" "./" "nodedapi_client/" "consul/" "nodedapi/" "sla/" "__init__.py" "../" "common/" "noded/" "subsystemclients/")
+
+ ("/home/arie/work/rootfs-star/py/strato/installation/" (22294 15956 96645 151000) "libvirtdconfig.py" "openstack/" "./" "configurecoredumps.py" "config.py" "modprobe.py" "configureservices.py" "harbour.py" "__init__.py" "netconfig.py" "datalayer.py" "mysqlconfiguration.py" "../" "main.py" "configurerest.py" "services/" "dns.py")
+
+ ("/home/arie/work/rootfs-star/py/strato/" (22275 35091 616443 629000) "__init__.pyc" "./" "installation/" "__init__.py" "../" "common/")
+
+ ("/home/arie/work/rootfs-star/py/" (22275 35091 616443 629000) "strato/" "testinglib/" "./" "../")
+
+ ("/home/arie/work/pyracktest/py/strato/racktest/infra/" (22309 60666 282584 432000) "seed/" "logbeamfromlocalhost.py" "__init__.pyc" "handlekill.pyc" "./" "rootfslabel.py" "concurrently.py" "config.py" "detachednode.py" "executioner.pyc" "__init__.py" "rackattackallocation.pyc" "suite.py" "config.pyc" "concurrently.pyc" "suite.pyc" "detachednode.pyc" "rackattackallocation.py" "logbeamfromlocalhost.pyc" "rootfslabel.pyc" "../" "executioner.py" "handlekill.py")
+
+ ("/home/arie/work/pyracktest/py/strato/racktest/" (22259 55051 957931 693000) "hostundertest/" "__init__.pyc" "runner/" "./" "__init__.py" "infra/" "../")
+
+ ("/home/arie/work/pyracktest/py/strato/" (22266 23543 818660 172000) "./" "tests/" "__init__.py" "racktest/" "../")
+
+ ("/home/arie/work/pyracktest/py/" (22043 55285 667661 806000) "strato/" "./" "../")
+
+ ("/home/arie/work/pyracktest/" (22275 30482 572283 466000) "dirbalak.manifest" "upseto.manifest" ".git/" "example_failing_racktests/" "runner" "example_plugins/" "./" ".gitignore" "example_racktests/" "solvent.manifest" "tests/" "LICENSE.txt" "logbeam.config" "disabled_tests/" "example_seeds/" "py/" "../" "Makefile")
+
+ ("/home/arie/work/rootfs-star/py/strato/installation/services/" (22296 36342 763636 880000) "./" "controlservices.yaml" "nodeservices.yaml" "baseservices.yaml" "../")
+
+ ("/home/arie/work/monkey/racktests/storage/" (22309 47713 697234 18000) "6_mancala_double_failure.py" "./" "5_disk_failures.py" "7_single_node_reboot_recovery.py" "2_external_storage.py" "1_check_multi_disks.py" "6_mancala_double_failure.pyc" "8_netapp_support.py" "3_mancala_accounting.py" "4_multiple_storage_pools.py" "../")
+
+ ("/home/arie/work/harbour/" (22276 4497 583781 817000) "tools/" "README.md" "dirbalak.manifest" "requirements.txt" "MANIFEST.in" ".git/" "containers/" "other-requirements.txt" "harbour-client/" "packaging/" "./" ".gitignore" "dev-requirements.txt" "subsystem-requirements.txt" "Dockerfile" "harbour/" "tests/" ".dockerignore" "uwsgi_config_generator/" "script/" "subsystem_tests/" "setup.py" "setup.cfg" "compose/" "Dockerfile.build" "../" "mocks/" "Makefile")
+
+ ("/home/arie/work/harbour/harbour/resources/" (22276 4497 583781 817000) "vms.py" "disks.py" "openstack/" "snapshots.py" "tenants.py" "images.py" "auth.py" "./" "storage.py" "nodes.py" "users.py" "tasks.py" "__init__.py" "storagepools.py" "volumes.py" "networks.py" "appliances.py" "vm_guardian.py" "../" "sla_profiles.py")
+
+ ("/home/arie/PycharmProjects/codejam/counting/" (22297 11825 959242 902000) "A-large-practice.in" "./" "test" "solver.py" "../" "test~")
+
+ ("/home/arie/jedi/" (22301 46717 239865 119000) "MANIFEST.in" ".git/" "README.rst" ".travis.yml" "AUTHORS.txt" ".coveragerc" "dist/" "./" ".gitignore" "docs/" "scripts/" "conftest.py" "test/" "CONTRIBUTING.md" "LICENSE.txt" "jedi.egg-info/" "pytest.ini" "jedi/" "CHANGELOG.rst" "build/" "setup.py" "../" "sith.py" "tox.ini")
+
+ ("/home/arie/.emacs.d/magit-1.4.2/" (22303 20520 221267 379000) "README.md" "magit-blame.el" ".travis.yml" "magit-key-mode.el" "./" ".gitignore" "magit.texi" "tests/" "AUTHORS.md" "Documentation/" "CONTRIBUTING.md" "COPYING" "magit.el" "magit-wip.el" ".mailmap" "../" "Makefile")
+
+ ("/home/arie/work/pylogdump/py/strato/logdump/" (22247 56086 363590 673000) "netcatstream.pyc" "__init__.pyc" "logdumpserver.pyc" "./" "logdumpapi.py" "logdumpendpoint.py" "logcollection.py" "netcatstream.py" "logdumpserver.py" "nodelogcollection.py" "logdumpclient.pyc" "__init__.py" "httpstreamingfile.py" "httpstreamingfile.pyc" "logdumpclient.py" "logdumpendpoint.pyc" "../" "main.py" "logdumpapi.pyc")
+
+ ("/home/arie/work/rootfs-star-base/" (22295 17109 35160 795000) "10-resvport.conf" "dirbalak.manifest" "solvent_pkgs.Makefile" ".git/" "./" ".gitignore" "python_pkgs.Makefile" "rpm_pkgs.Makefile" "solvent.manifest" "py/" "../" "chroot.sh" "Makefile")
+
+ ("/home/arie/work/strato_kv/py/strato/cmcommon/" (22303 20727 777261 51000) "__init__.pyc" "./" "config.py" "urlasker.py" "urlasker.pyc" "__init__.py" "config.pyc" "../")
+
+ ("/home/arie/.emacs.d/elpa/flycheck-mypy-20160220.1432/" (22305 42595 139967 157000) "flycheck-mypy.elc" "./" "flycheck-mypy.el" "flycheck-mypy-pkg.el" "../" "flycheck-mypy-autoloads.el" "flycheck-mypy-pkg.elc")
+
+ ("/usr/bin/" (22305 57555 11862 931000) "yes" "nodejs" "qdbuscpp2xml" "jpegtopnm" "lzless" "purple-url-handler" "pydoc2.7" "xcursorgen" "xkbvleds" "amixer" "sbsiglist" "gkbd-keyboard-display" "pbmtoxbm" "setsid" "pnmtorast" "ps2txt" "listres" "dh_installxmlcatalogs" "xhost" "dvd+rw-booktype" "xwud" "intel_bios_reader" "s2p" "dh_auto_test" "qmlmin" "pybuild" "mc-tool" "ex" "grog" "precat" "aubrsync" "mousetweaks" "perl5.18.2" "debconf-apt-progress" "dh_installinfo" "xditview" "xkbprint" "ar" "gslj" "gnome-help" "compiz" "p7zip" "umax_pp" "ctags" "lockfile-touch" "intel_gpu_time" "git" "ul" "pdftotext" "debconf-escape" "seq" "ppmtoxpm" "helpztags" "dh_bugfiles" "pgmtexture" "lwp-request" "empathy-debugger" "gnome-session-inhibit" "c89-gcc" "codepage" "localedef" "zipnote" "alsaloop" "winecfg" "dh_python2" "gcc-nm-4.8" "ortecc" "xcutsel" "[" "rcp" "msgattrib" "wine-preloader" "showrgb" "x86_64-linux-gnu-cpp-4.8" "tee" "rcc" "automake-1.14" "symilar" "pnmtotiff" "make" "mkfontdir" "glxdemo" "nm-applet" "wftopfa" "uuencode" "startx" "unicode_stop" "aseqdump" "ps2pdf13" "top" "dh_gencontrol" "cpp-4.8" "cabextract" "uxterm" "dh_bash-completion" "gcalccmd" "unlink" "showkey" "pnmmontage" "sha1pass" "p11-kit" "ompi-server" "lcf" "atobm" "tic" "select-editor" "dh_quilt_patch" "winemaker" "printafm" "opal_wrapper" "evince-thumbnailer" "qtconfig" "notepad" "setlogcons" "x86_64-linux-gnu-ar" "python" "dh_installcron" "h2xs" "neqn" "pypyclean" "vmstat" "partx" "zeitgeist-daemon" "newgrp" "gnome-screensaver-command" "smbtree" "brltty-trtxt" "qhelpgenerator" "ucf" "colrm" "python2.7" "du" "gnome-terminal.wrapper" "pgmcrater" "intel_reg_checker" "xsetpointer" "ppmcie" "gcov-4.8" "gimp" "transset" "mmove" "xedit" "gpg-error-config" "loffice" "x-www-browser" "chattr" "flock" "intel-virtual-output" "lprm" "split" "head" "shar" "ssh-add" "toe" "fstopgm" "gnome-power-statistics" "gvfs-info" "routel" "intel_gpu_top" "wine-auto" "tdbtool" "chardet" "pnmpad" "mpiexec.openmpi" "lss16toppm" "rediff" "gnome-terminal" "411toppm" "landscape-client-ui-install" "envsubst" "instmodsh" "qtpaths" "nl" "gst-launch-0.10" "cpp" "dh_perl" "x86_64-linux-gnu-python2.7-config" "soffice" "watch" "t1mac" "man" "dh_installcatalogs" "rgrep" "m4" "qmlscene" "hardening-check" "sudoreplay" "podselect" "telnet" "pypy" "pgmtopbm" "zlib-flate" "ssh" "locate" "bcp" "mkfontscale" "lpq" "g3topbm" "zipgrep" "lpoptions" "readom" "pbmtoascii" "msginit" "chfn" "getopt" "aconnect" "i386" "tclsh8.6" "xdg-user-dirs-gtk-update" "gnome-system-monitor" "atktopbm" "grub-mkrelpath" "diffstat" "pjtoppm" "xclipboard" "docker-containerd-ctr" "sshpass" "pgrep" "rawtopgm" "service" "ods-server" "ppmmix" "mail-unlock" "tapconvert" "initctl2dot" "x86_64-linux-gnu-gcov" "dbus-launch" "fc-match" "intel_disable_clock_gating" "xsubpp" "gvfs-copy" "mtvtoppm" "splitfont" "dh_installman" "winegcc" "init-checkconf" "vboxwebsrv" "shotwell" "pulseaudio" "dh_apparmor" "pdfimages" "docker-runc" "orte-iof" "arch" "msgfilter" "unexpand" "mailx" "c++" "xzegrep" "sldtoppm" "msgunfmt" "smbpasswd" "speech-dispatcher" "dh_installmanpages" "stdbuf" "im-config" "pdf2ps" "ppmtobmp" "bdftopcf" "ipcrm" "hmac256" "rgb3toppm" "gnome-screenshot" "thinkjettopbm" "easy_install" "lintian-info" "pacmd" "fstobdf" "updatedb.mlocate" "pnmtojpeg" "nm-tool" "catchsegv" "pager" "setpci" "x86_64-linux-gnu-gcc-ranlib-4.8" "gettext" "pnmenlarge" "smbta-util" "ppmtoyuvsplit" "lp_solve" "md5pass" "grub-menulst2cfg" "xkbevd" "pyhtmlizer" "dpkg-architecture" "Magick-config" "unshar" "smbspool" "mogrify" "hp-levels" "qrttoppm" "setfacl" "apt-cache" "dh_scrollkeeper" "slogin" "arecordmidi" "awk" "update-mime-database" "gnome-session-quit" "qdbusviewer" "ftp" "qtchooser" "snice" "golang-go" "mbadblocks" "xauth" "ldd" "gvfs-mime" "xzdiff" "c89" "ntlm_auth" "pdffonts" "dotlockfile" "pgmoil" "gcc-nm" "dbus-monitor" "acpi_listen" "strace" "oclock" "intel_reg_dumper" "mcomp" "brltty-ttb" "lowriter" "lsusb" "apt-config" "gencfu" "c99" "rsync" "dconf" "ncal" "tput" "xstdcmap" "google-chrome" "flipdiff" "hp-check" "preconv" "compare.im6" "os-prober" "ppdpo" "pgmnoise" "pgmtoppm" "libreoffice" "chkdupexe" "grub-mknetdir" "xbiff" "designer" "nano" "strip" "pygettext" "zipcloak" "fold" "dvd+rw-mediainfo" "pbmtoppa" "env" "apg" "dpkg-split" "curl" "ppmqvga" "import" "infobrowser" "podebconf-display-po" "dvipdf" "objcopy" "emacs" "gccmakedep" "addpart" "pamdeinterlace" "isovfy" "amuFormat.sh" "getent" "pyflakes" "perlthanks" "hipstopgm" "ppmtopj" "apt-sortpkgs" "printerbanner" "ompi-ps" "smbcquotas" "ppmfade" "function_grep.pl" "gnome-keyring-3" "btcflash" "ps2pdf" "xman" "dh_desktop" "config_data" "widl" "ipptool" "pon" "pnmalias" "conjure" "pnmhistmap" "qdoc3" "file" "mail" "tset" "preunzip" "m17n-config" "apt" "pnmnorm" "mogrify.im6" "gnome-system-log-pkexec" "xzcmp" "pango-view" "GET" "intel_sprite_on" "cd-create-profile" "deja-dup" "dh_installifupdown" "dpkg-genchanges" "HEAD" "mrd" "zipsplit" "activity-log-manager" "dpkg-statoverride" "dh_auto_configure" "glib-gettextize" "perl" "ifnames" "avahi-resolve-host-name" "pinky" "sirtopnm" "avahi-publish-address" "sensible-pager" "vboxballoonctrl" "zipdetails" "gst-inspect-1.0" "texi2pdf" "nautilus" "ginstall-info" "file-roller" "bc" "cmuwmtopbm" "lzma" "wrc" "gcc-ranlib-4.8" "xmodmap" "git-upload-archive" "ppmdither" "hp-makeuri" "emacsclient.emacs24" "sha384sum" "mimeopen" "pnmcut" "gnome-session-properties" "palmtopnm" "ld.gold" "pnmfile" "lrelease" "iptables-xml" "pbmtomda" "loadkeys" "meld" "avahi-publish-service" "lzmainfo" "dpkg-source" "start-pulseaudio-kde" "kbdinfo" "t1binary" "numfmt" "gnome-character-map" "tst_inactivity_timer" "md5sum.textutils" "gdialog" "debconf-gettextize" "pcimodules" "pgmtofs" "h2ph" "avahi-set-host-name" "lintian" "regsvr32" "uuidgen" "display" "sha224sum" "unity-webapps-runner" "appres" "mkdirhier" "docker-containerd-shim" "gemtopnm" "gvfs-save" "lodraw" "mzip" "gtester-report" "update-gconf-defaults" "dh_installmime" "grepdiff" "ebrowse" "sbigtopgm" "fixcvsdiff" "syslinux2ansi" "tabs" "gcov" "cancel" "moc" "update-desktop-database" "gslp" "mkisofs" "ppmquantall" "autoupdate" "infokey" "gst-feedback-0.10" "cisco-decrypt" "dh_auto_build" "pi1toppm" "rpl8" "ppmcolormask" "ppmtoilbm" "mshortname" "pdb3.4" "gnome-system-log" "dh_gconf" "duplicity" "faked-tcp" "hg-ssh" "pnmnoraw" "ionice" "pod2usage" "hexdump" "mpicxx" "intel_bios_dumper" "auchk" "gimp-console-2.8" "tdbbackup.tdbtools" "xsm" "pyreverse" "mlocate" "intel_forcewaked" "mformat" "elfedit" "wayland-scanner" "dh_virtualenv" "pnmscale" "aspell-import" "inputattach" "gst-inspect-0.10" "xdg-open" "setmetamode" "apt-key" "x86_64-linux-gnu-gcc-ranlib" "taskset" "prove" "editdiff" "slabtop" "dpkg" "gstreamer-codec-install" "isodump" "pico" "dh_installwm" "sdiff" "sensible-editor" "xlsclients" "playonlinux-pkg" "gst-play-1.0" "gyp" "brasero" "usb-devices" "pnmscalefixed" "pnmtosgi" "pod2latex" "tty" "parecord" "lzcmp" "pnmtotiffcmyk" "VBoxSDL" "orte-bootproxy" "pnmcrop" "xdg-icon-resource" "pdftexi2dvi" "trust" "mdeltree" "users" "gimp-console" "Xorg" "rmail" "gst-xmlinspect-0.10" "gcc-ar" "pnmsplit" "debconf-show" "apt-extracttemplates" "qmlprofiler" "pod2texi" "ppmmake" "shred" "upower" "ddate" "hg" "intel_upload_blit_large_map" "gendict" "7z" "lzcat" "webbrowser-app" "2to3-2.7" "pnmdepth" "enc2xs" "xgettext" "ucs2any" "gst-discoverer-0.10" "c99-gcc" "xsetmode" "join" "pbmupc" "mtools" "free" "localc" "ipcs" "avahi-browse" "scp-dbus-service" "gdbus-codegen" "pnmtopng" "ppmshift" "growisofs" "getconf" "quickbook" "less" "cifsdd" "dh" "pldd" "pamfile" "last" "tracepath" "cpanp-run-perl" "dh_lintian" "enchant-lsmod" "grub-mkimage" "qmlviewer" "montage" "pbmtoybm" "zsoelim" "pbmtopi3" "unshare" "msiexec" "ppdi" "pygettext2.7" "lndir" "pnmtofiasco" "clear_console" "MagickWand-config" "pdftocairo" "charmap" "base64" "intel_backlight" "dh_builddeb" "x86_64-linux-gnu-gcc-ar" "gnome-disk-image-mounter" "pgmkernel" "gsettings" "dpkg-buildpackage" "pdfinfo" "prename" "vino-passwd" "hp-setup" "avahi-resolve" "ppmrelief" "gcc-4.8" "pod2man" "orte-ps" "grub-editenv" "tload" "compiz-decorator" "pamstretch-gen" "dpkg-gensymbols" "mpicc" "trial" "gnome-keyring" "link" "x86_64-linux-gnu-c++filt" "glib-mkenums" "cd-iccdump" "geqn" "rtstat" "screendump" "xlsfonts" "pnmcomp" "webapp-container" "sftp" "hp-unload" "zdump" "intel_reg_write" "pbmtogo" "gvfs-cat" "dh_installudev" "hp-align" "gdk-pixbuf-pixdata" "tclsh" "pstruct" "mapscrn" "pbmtoatk" "x86_64-linux-gnu-gcc-nm" "getfacl" "qmake" "c_rehash" "spctoppm" "sputoppm" "vstp" "cpan" "guild" "gvfs-rename" "pamstretch" "savelog" "dh_testdir" "updatedb" "fc-cat" "dpkg-buildflags" "quilt" "gvfs-rm" "wish" "gpgv" "lzfgrep" "clear" "dh_install" "MagickCore-config" "ispell-wrapper" "nm-connection-editor" "ctstat" "prtstat" "neotoppm" "libpng12-config" "ppmtorgb3" "convert" "bmtoa" "gencnval" "sotruss" "genbrk" "nroff" "uniq" "pkcheck" "ppmtouil" "pkttyagent" "rdesktop-vrdp" "aclocal-1.14" "whoopsie-preferences" "asciitopgm" "pnmtopalm" "koi8rxterm" "2to3" "gtk-launch" "ssh-keyscan" "xdg-desktop-menu" "rawtoppm" "xrefresh" "desktop-file-validate" "passwd" "xvminitoppm" "winebuild" "dialog" "ppmtosixel" "factor" "sessreg" "fc-cache" "dig" "xterm" "aplaymidi" "traceroute6" "dh_md5sums" "yelp" "ntfsdecrypt" "timeout" "brltty-ctb" "ppmtowinicon" "automake" "ppmtoyuv" "aubusy" "gtk-update-icon-cache" "strings" "logname" "dh_usrlocal" "x86_64-linux-gnu-strip" "dh_installdirs" "inspect" "animate" "grub-kbdcomp" "grotty" "ppmtopgm" "xeyes" "paste" "cheese" "splain" "dh_movefiles" "gsnd" "pgmslice" "wine" "showconsolefont" "xzgrep" "isql" "x86_64-linux-gnu-python3-config" "xlsatoms" "pgmedge" "start-pulseaudio-x11" "xlogo" "composite" "chsh" "POST" "ppmpat" "nohup" "basename" "pnmtile" "expand" "notify-send" "ppmtogif" "gencat" "toshset" "shasum" "lockfile-check" "wrestool" "pylint-gui" "dh_strip" "intel_upload_blit_large_gtt" "mgrtopbm" "gucharmap" "cd-fix-profile" "ps2epsi" "ppdc" "wish8.6" "hp-pkservice" "bioradtopgm" "conjure.im6" "totem-video-thumbnailer" "pnmpaste" "x86_64-linux-gnu-readelf" "rletopnm" "x86_64-linux-gnu-strings" "dpkg-maintscript-helper" "pbmto10x" "hp-firmware" "ltrace" "nosetests" "mdir" "lupdate" "ppmtotga" "empathy" "ompi-profiler" "grub-mklayout" "pbmmake" "eog" "pbmtogem" "vim.tiny" "realpath" "smbcontrol" "find2perl" "perlivp" "lsof" "getkeycodes" "lzgrep" "tdbdump" "gvfs-open" "pbmtox10bm" "syslinux" "gpgsplit" "x86_64-linux-gnu-as" "pdb2.7" "intel_error_decode" "derb" "alsaucm" "update-alternatives" "xdg-email" "virtualbox" "cmp" "podebconf-report-po" "iconv" "rlwrap" "VBoxAutostart" "texindex" "mk_modmap" "dh_installchangelogs" "uudecode" "dh_clean" "gsdj" "gtk-update-icon-cache-3.0" "x86_64-linux-gnu-objdump" "solvent" "omshell" "dh_icons" "paperconf" "ppmtojpeg" "7zr" "pwdx" "pgmhist" "which" "debconf-copydb" "mcookie" "dm-tool" "unlzma" "winetricks" "wine64-preloader" "montage.im6" "nmblookup" "VBoxHeadless" "minfo" "reset" "cgroups-mount" "xwdtopnm" "icu-config" "pnmflip" "unity8" "run-mailcap" "nslookup" "grub-file" "pytest" "pdbedit" "xdg-settings" "genresscript" "pgmramp" "grub-mkrescue" "ncurses5-config" "xset" "mtoolstest" "hostnamectl" "traceroute6.iputils" "mcopy" "gpg" "x-terminal-emulator" "pathchk" "pbmpage" "pilconvert.py" "xmessage" "t1unmac" "dh_installxfonts" "fslsfonts" "obex-data-server" "tzselect" "empathy-accounts" "pbmpscale" "purple-send-async" "setarch" "scp" "winepath" "gold" "lspci" "freetype-config" "gsettings-schema-convert" "wpa_passphrase" "wineconsole" "2to3-3.4" "lorder" "apgbfm" "od" "lwp-dump" "memdiskfind" "twistd" "rview" "cksum" "dpkg-shlibdeps" "localectl" "grub-mkstandalone" "lofromtemplate" "gtbl" "pcf2vpnc" "info" "pnmsmooth" "sha1sum" "xvidtune" "loimpress" "script" "orted" "dh_installlogrotate" "ompi-clean" "gnome-exe-thumbnailer" "ppmtoleaf" "qglinfo" "mtrace" "xgamma" "sbattach" "xinit" "pbmtog3" "nm-online" "ppmtopuzz" "x86_64-linux-gnu-ranlib" "xkbcomp" "update-perl-sax-parsers" "identify" "unxz" "ssh-copy-id" "ppmtoeyuv" "etags.emacs24" "st4topgm" "isoinfo" "ppdhtml" "simple-scan" "fakeroot-sysv" "dpkg-parsechangelog" "gnome-screensaver" "aclocal" "install-info" "g++" "rendercheck" "select-default-iwrap" "unity-webapps-desktop-file" "gs" "ppmtoacad" "mpiCC.openmpi" "VBoxDTrace" "whoopsie" "killall" "smbstatus" "ipod-time-sync" "pydoc3" "vmwarectrl" "baobab" "xkeystone" "uic" "pbmtozinc" "view" "pbmmask" "qmlplugindump" "opalc++" "gvfs-less" "wc" "dpkg-query" "gtester" "loadunimap" "grops" "docker" "mkzftree" "dbwrap_tool" "glxheads" "gsettings-data-convert" "orteCC" "test" "pdfunite" "pod2latex.bundled" "epylint" "vino-preferences" "hp-config_usb_printer" "xconsole" "wbinfo" "winecpp" "psed" "mail-lock" "xdg-screensaver" "gcr-viewer" "hp-timedate" "pnminterp-gen" "yuvsplittoppm" "gst-discoverer-1.0" "dpkg-checkbuilddeps" "tifftopnm" "fmt" "dh_ucf" "dh_installgsettings" "gdb" "intel_upload_blit_small" "glib-compile-schemas" "pbmtoicon" "schroot" "hp-query" "min12xxw" "printf" "whatis" "tgz" "x86_64-linux-gnu-size" "msgconv" "ilbmtoppm" "brushtopbm" "lockfile-create" "bmptopnm" "setfattr" "pic" "pdb3" "gvfs-set-attribute" "ppmflash" "pnmtoplainpnm" "ps2pdfwr" "lsinitramfs" "stat" "emacs24" "linux64" "smbspool_krb5_wrapper" "edit" "pep8" "dehtmldiff" "debconf-set-selections" "groff" "nm" "xcmsdb" "pm-is-supported" "x86_64-linux-gnu-gcov-4.8" "netkit-ftp" "ctags.emacs24" "a2p" "nice" "bdftruncate" "apt-cdrom" "gdk-pixbuf-query-loaders" "dh_autotools-dev_restoreconfig" "python2" "id" "leaftoppm" "cvt" "wbmptopbm" "ucfr" "isdv4-serial-debugger" "t1disasm" "x86_64-linux-gnu-dwp" "prezip-bin" "orte-clean" "glib-genmarshal" "dpkg-gencontrol" "avahi-browse-domains" "xwd" "mediascanner-service-2.0" "w.procps" "im-launch" "npm" "iceauth" "wodim" "qdbus" "nstat" "unopkg" "size" "ompi-probe" "animate.im6" "x86_64-linux-gnu-python3m-config" "infocmp" "upseto" "ebrowse.emacs24" "pl2pm" "diff3" "psfaddtable" "avahi-resolve-address" "nautilus-sendto" "mpicxx.openmpi" "infotocap" "gnome-thumbnail-font" "playonlinux" "python3.4m" "ybmtopbm" "ompi-iof" "synclient" "gpasswd" "dh_quilt_unpatch" "pod2html" "ompi_info" "pbmtonokia" "desktop-file-edit" "prezip" "google-chrome-stable" "ps2ps" "emacs24-x" "xwininfo" "mdu" "c++filt" "winedump" "node" "xzcat" "resizepart" "expiry" "seahorse" "pnmtoddif" "gvfs-mkdir" "ppmtompeg" "pnmquant" "pbmclean" "x86_64-linux-gnu-nm" "pilfile.py" "imgtoppm" "aseqnet" "setxkbmap" "gettextize" "hp-testpage" "diff" "pbmtoplot" "qmltestrunner" "ppmnorm" "pnmtorle" "gethostip" "qmlbundle" "qml1plugindump" "x86_64-linux-gnu-python-config" "cdrecord" "X" "sum" "zipinfo" "peekfd" "xvinfo" "line" "luit" "lz" "soelim" "chrt" "debconf-updatepo" "s3cmd" "isohybrid.pl" "ischroot" "column" "dh_installdeb" "intel_gtt" "gox" "tdbrestore" "gnome-open" "pstopnm" "perldoc" "editres" "syndaemon" "signonpluginprocess" "lsdiff" "dirname" "lesspipe" "gvfs-trash" "faked-sysv" "samba-tool" "ptargrep" "g++-4.8" "fitstopnm" "chcon" "sbverify" "dh_installexamples" "gvfs-ls" "lwp-download" "x11perfcomp" "calibrate_ppa" "usbhid-dump" "sudoedit" "X11/" "gpg-zip" "bsd-from" "addr2line" "nsupdate" "troff" "mkhtmlindex" "ppmtolj" "dwp" "gouldtoppm" "macptopbm" "setkeycodes" "pbmtopgm" "mpirun" "pycompile" "manpath" "sane-find-scanner" "fc-list" "mailq" "ppmtolss16" "eqn" "timedatectl" "telepathy-indicator" "pbmtoepson" "unity-webapps-qml-launcher" "logger" "gnome-session" "pyversions" "cc" "mpic++" "tap2deb" "rstartd" "xdg-user-dir" "ppmquant" "ps2ps2" "mmd" "syslinux-legacy" "gpg-error" "psidtopgm" "c2ph" "x86_64-linux-gnu-elfedit" "smbtar" "sprof" "xprop" "mdatopbm" "gst-visualise-0.10" "revpath" "readline-editor" "VBoxTunctl" "mkmanifest" "xsetwacom" "dh_installemacsen" "xinput" "editor" "pnminterp" "chage" "unwrapdiff" "debconf-communicate" "esc-m" "install" "intel_dpio_read" "mpartition" "scanimage" "pi3topbm" "ppmrainbow" "ppmtoicr" "x86_64-linux-gnu-g++" "apt-mark" "mc-wait-for-name" "resizecons" "pngtopnm" "dircolors" "ipod-read-sysinfo-extended" "sha256sum" "pactl" "ptx" "dumpkeys" "pxelinux-options" "cgroups-umount" "cups-calibrate" "rdiffdir" "ppmlabel" "grep-changelog" "ppmtoneo" "pnmtofits" "sqlite3" "xxd" "mcat" "filterdiff" "libotf-config" "rename" "nproc" "emacsclient" "pamstack" "hp-doctor" "icuinfo" "pbmlife" "msgen" "yuvtoppm" "guards" "pftp" "vbox-img" "qdbusxml2cpp" "makedepend" "wine64" "x86_64-linux-gnu-gcc-nm-4.8" "faillog" "libgcrypt-config" "gprof" "python3.4" "unity-scope-loader" "cut" "tdbbackup" "rsh" "lxterm" "msgmerge" "tail" "pilprint.py" "sbkeysync" "hp-probe" "ico" "gcc-ranlib" "x86_64-linux-gnu-gcc-4.8" "tbl" "pcre-config" "mxtar" "vboxsdl" "vboxheadless" "pamcut" "pdfseparate" "mpic++.openmpi" "xkbwatch" "sha512sum" "makeinfo" "ld" "gvfs-mount" "msgfmt" "pkg-config" "xdg-user-dirs-update" "dh_prep" "icotool" "pnmgamma" "rename.ul" "deb-systemd-invoke" "apt-get" "pfbtopfa" "mtr" "VBoxBalloonCtrl" "tap2rpm" "dh_shlibdeps" "dpkg-mergechangelogs" "ppmforge" "compare" "pstree" "lpr" "chacl" "genrb" "winedbg" "pbmtoptx" "stream" "oldfind" "mpiexec" "dvd-ram-control" "docker-containerd" "glib-compile-resources" "Wand-config" "dh_auto_clean" "nautilus-autorun-software" "loweb" "deb3" "py3clean" "gnome-disks" "gvfs-monitor-file" "pbmtomgr" "xcalc" "xml2-config" "ucfq" "winefile" "zip" "tsort" "lscpu" "pamoil" "qml" "ps2ascii" "lzdiff" "ppmbrighten" "mcheck" "pdftohtml" "dh_listpackages" "vboxmanage" "x86_64-linux-gnu-ld.bfd" "piconv" "iproxy" "gresource" "pnmcat" "mdel" "gvfs-tree" "parec" "compose" "pgmtolispm" "ld.bfd" "dpkg-name" "libwmf-config" "x86_64-linux-gnu-gcc" "padsp" "run-with-aspell" "interdiff" "ssh-askpass" "ippfind" "mattrib" "linguist" "gnome-text-editor" "pnminvert" "zenity" "combinediff" "lockfile-remove" "apropos" "pnmhisteq" "gconftool" "xz" "dh_suidregister" "ppmtv" "orterun" "git-receive-pack" "t1asm" "mpif90" "autom4te" "smbget" "dh_installdocs" "ipcmk" "fc-scan" "ncursesw5-config" "extresso" "xmlpatternsvalidator" "isohybrid" "hp-plugin" "pypycompile" "mpicc.openmpi" "pilfont.py" "mawk" "gtk-window-decorator" "ortec++" "intel_reg_snapshot" "odbcinst" "newaliases" "pf2afm" "gemtopbm" "pbmtowbmp" "lnstat" "giftopnm" "fallocate" "dh_autotools-dev_updateconfig" "psfgettable" "x86_64-linux-gnu-ld" "composite.im6" "devdump" "qcollectiongenerator" "font2c" "wmdocker" "dh_dkms" "x86_64-linux-gnu-addr2line" "VBoxManage" "pr" "gvfs-monitor-dir" "rasttopnm" "cautious-launcher" "msgexec" "pnm2ppa" "as" "gio-querymodules" "ppmdist" "wget" "fc-pattern" "ibus-daemon" "wineg++" "patch" "udisksctl" "bsd-write" "sbsign" "autoreconf" "ppmcolors" "xfd" "print" "psfstriptable" "lessecho" "colcrt" "pnmconvol" "lzmore" "dumpsexp" "host" "uconv" "VBox" "xkbbell" "osmosis" "runcon" "gvfs-move" "ttfread" "pbmtextps" "nawk" "mimetype" "identify.im6" "sharesec" "texi2dvi" "apt-ftparchive" "samba-regedit" "ppmshadow" "dh_python3" "nmcli" "pgmbentley" "lzegrep" "pnmcolormap" "qpdf" "funzip" "gedit" "cpan2dist" "grub-glue-efi" "regedit" "mlabel" "ssh-agent" "glxinfo" "py3versions" "intel_upload_blit_large" "oLschema2ldif" "xzfgrep" "thunderbird" "winicontoppm" "cupstestppd" "mcd" "xmlpatterns" "lconvert" "ibus-setup" "unzip" "hp-colorcal" "ckbcomp" "ps2pdf14" "xzless" "eventlogadm" "smbcacls" "xkill" "dh_installmodules" "fc-validate" "pacat" "resize" "routef" "pbmtocmuwm" "sensible-browser" "look" "sg" "makeconv" "pnmindex" "pod2text" "ubuntu-webapps-update-index" "iecset" "wineboot" "dh_installmenu" "pnmarith" "orte-top" "autoheader" "pdb" "dh_installdebconf" "printenv" "gnome-keyring-daemon" "debconf" "gnome-font-viewer" "dh_undocumented" "cupstestdsc" "imake" "7za" "qhelpconverter" "display.im6" "pbmtolj" "dpkg-distaddfile" "evince" "smproxy" "pg" "comm" "pyclean" "sort" "readelf" "md5sum" "tac" "po2debconf" "signond" "pip" "telnet.netkit" "cal" "setleds" "ppmntsc" "grub-fstest" "xdpyinfo" "x86_64-linux-gnu-gcc-ar-4.8" "easy_install-2.7" "signon-ui" "axi-cache" "makeg" "autoconf" "ssh-argv0" "msgcmp" "ptardiff" "orte_wrapper_script" "pstree.x11" "dpkg-scansources" "attr" "x86_64-linux-gnu-python3.4-config" "pnmtosir" "sgitopnm" "icontopbm" "vboxautostart" "pip2" "lsattr" "crc32" "qmlimportscanner" "bitmap" "sudo" "xrdb" "VBoxVRDP" "mpif77.openmpi" "lastb" "gofmt" "libnetcfg" "mergelib" "gettext.sh" "gnome-www-browser" "alsamixer" "pygettext3.4" "hostid" "tracepath6" "mren" "msgcat" "rpcclient" "locale" "ibus" "viewres" "pkaction" "hp-logcapture" "xdriinfo" "ps2pdf12" "x-session-manager" "fonttosfnt" "ppmtopcx" "pylint" "pygettext3" "pkill" "who" "ppmtomitsu" "pnmtoxwd" "crontab" "getfattr" "update-mime-database.real" "dpkg-scanpackages" "volname" "mtype" "dirsplit" "dh_installppp" "gst-launch-1.0" "cpanp" "msgcomm" "xdg-mime" "evince-previewer" "python3m" "grep-changelog.emacs24" "hd" "mclasserase" "calendar" "gpic" "fakeroot" "anytopnm" "from" "pamdice" "mandb" "pphs" "splitdiff" "pango-querymodules" "linux-boot-prober" "ppmtomap" "ppmchange" "perlbug" "rstart" "word-list-compress" "pnmtops" "pgmnorm" "desktop-file-install" "xgc" "col" "hp-hpdio" "xmore" "pbmtopsg3" "ppmhist" "truncate" "gdbtui" "vi" "mpirun.openmpi" "genisoimage" "mscompress" "nosetests-2.7" "glxgears" "unity-settings-daemon" "isdv4-serial-inputattach" "xsetroot" "shuf" "gamma4scanimage" "tr" "testparm" "expr" "autoscan" "gconf-merge-tree" "pixeltool" "xpmtoppm" "time" "mail-touchlock" "ccmakedep" "xmkmf" "xbmtopbm" "pildriver.py" "xdg-desktop-icon" "hp-clean" "avahi-publish" "see" "Mail" "arping" "ppdmerge" "gobject-query" "deb-systemd-helper" "gdk-pixbuf-csource" "x86_64-linux-gnu-objcopy" "python3" "dh_pypy" "dpkg-vendor" "linux32" "uic3" "enchant" "fc-query" "pcxtoppm" "tgatoppm" "groups" "smbclient" "lomath" "sbvarsign" "mpif90.openmpi" "grub-mkfont" "aspell" "renice" "qdoc" "fix-qdf" "zeisstopnm" "gnome-contacts" "opalcc" "objdump" "mpiCC" "pnmpsnr" "grub-mkpasswd-pbkdf2" "paplay" "net" "msguniq" "skill" "gtf" "wineserver" "recountdiff" "dpkg-divert" "dh_link" "xfontsel" "fakeroot-tcp" "poff" "on_ac_power" "x86_64-linux-gnu-python3.4m-config" "amidi" "lexgrog" "wall" "pnmrotate" "xargs" "corelist" "xev" "zeitgeist-datahub" "setterm" "pnmshear" "ximtoppm" "showfont" "pasuspender" "dc" "eyuvtoppm" "lwp-mirror" "eject" "lshw" "delpart" "w" "pnmremap" "pnmmargin" "miniterm.py" "pbmreduce" "bmptoppm" "mkfifo" "canberra-gtk-play" "podchecker" "lispmtopgm" "dh_pangomodules" "deja-dup-preferences" "touch" "whoami" "write" "intel_l3_parity" "x86_64" "pydoc3.4" "lspgpot" "dpkg-deb" "csplit" "bjam" "virtualenv" "captoinfo" "cleanlinks" "mesg" "catman" "mshowfat" "import.im6" "intel_gpu_abrt" "parsechangelog" "totem-audio-preview" "xrandr" "kerneloops-submit" "session-migration" "iusql" "scriptreplay" "pbmtext" "git-shell" "gst-typefind-1.0" "manhole" "assistant" "VirtualBox" "uz" "colormgr" "hp-info" "unzipsfx" "Magick++-config" "grub-render-label" "intel_reg_read" "purple-send" "totem" "intel_dpio_write" "dh_installlogcheck" "convert.im6" "gcc" "deallocvt" "xclock" "dh_installinit" "dvd+rw-format" "pdftoppm" "ngettext" "pgmenhance" "lppasswd" "ompi-top" "gimp-2.8" "gsbj" "wmc" "pdfdetach" "remmina" "eps2eps" "rev" "msexpand" "gdbus" "winemine" "x86_64-linux-gnu-g++-4.8" "spd-say" "xfsinfo" "namei" "xload" "go" "plog" "rpcgen" "x86_64-linux-gnu-gprof" "intel_audio_dump" "pdf2dsc" "lessfile" "m17n-db" "ppm3d" "ppmspread" "pbmtobbnbg" "dh_testroot" "pkexec" "ssh-keygen" "msggrep" "uptime" "intel_stepping" "hp-scan" "lpstat" "xmag" "dpkg-trigger" "ghostscript" "dh_fixperms" "git-upload-pack" "pkgdata" "bashbug" "profiles" "py3compile" "ppmtopict" "grub-mount" "speaker-test" "pmap" "stream.im6" "grub-script-check" "pbmtomacp" "openssl" "txixml2texi" "x86_64-linux-gnu-cpp" "x11perf" "gst-typefind-0.10" "pbmtoepsi" "purple-remote" "ptar" "lp" "dh_compress" "pamon" "dh_auto_install" "hp-plugin-ubuntu" "json_pp" "pydoc" "t1ascii" "libpng-config" "dbus-send" "arecord" "gst-xmllaunch-0.10" "psfxtable" "fiascotopnm" "grub-syslinux2cfg" "texi2any" "mkdiskimage" "ranlib" "lastlog" "transmission-gtk" "dh_installpam" "ppmdim" "pdftops" "pax11publish" "nautilus-connect-server" "pyflakes3" "whereis" "geteltorito" "mpif77" "gcore" "lesskey" "dh_makeshlibs" "pnmnlfilt" "x86_64-linux-gnu-ld.gold" "etags" "gconftool-2" "ibus-table-createdb" "ppmtopi1" "rlogin" "aplay" "mmount" "gnome-calculator" "bsd-mailx" "recode-sr-latin" "xzmore" "gsdj500" "gcc-ar-4.8" "find" "../" "./")
+
+ ("/home/arie/work/strato_kv/py/strato/clusterd/" (22309 45250 97251 182000) "__init__.pyc" "leader_elector.py" "service_distributor.py" "./" "service_distributor.pyc" "__init__.py" "leader_elector.pyc" "clusterd.py" "../" "main.py" "logconf.json")
+
+ ("/home/arie/.emacs.d/elpa/flycheck-20160420.1312/" (22309 40938 421281 222000) "flycheck.el" "./" "flycheck-pkg.el" "flycheck-buttercup.el" "flycheck.el~" "flycheck-autoloads.el" "flycheck-ert.elc" "flycheck-ert.el" "../")
+
+ ("/home/arie/code_jam/sports/" (22309 37315 641306 462000) "#solver.py#" "./" "B-small.out" "test" "solver.py" "../")
+
+ ("/home/arie/Downloads/" (22309 45309 229250 770000) "test (2).stratolog" "Miriam Kreisel- resume.pdf" "hostcheck.jar" "test (11).stratolog" "7_cpu_allocation_changes.tar.gz" "rabbitmq-server-3.5.7-1.noarch.rpm" "nrad.stratolog" "A-small-attempt0.in" "test (19).stratolog" "logs (21).tar.gz" "C-large-practice.in" "rabbit@stratonode6375.node.strato.log" "sub-4.out" "sub-6.out" "magit-1.4.2.tar.gz" "rabbitmq-wrapper (3).stratolog" "A-large-practice.in" "upseto.manifest" "logs (30).tar.gz" "C-small-attempt1.in" "test (3).stratolog" "busybox-1.15.1-21.el6_6.x86_64.rpm" "Stratoscale org chart.pptx" "rabbitmq-wrapper.stratolog" "comment-2.txt" "slave.jar" "python-oslo-messaging.patch~" "logs (25).tar.gz" "logs (26).tar.gz" "C-small-attempt0.in" "racktest.runner.stratolog" "Applying-multiple-checkers.html" "doc" "logs (5).tar.gz" "C-small-attempt2.in" "test (5).stratolog" "consul_0.6.4_web_ui.zip" "A-small-practice.in" "76329-301441.docx" "logs (19).tar.gz" "rabbitmq-wrapper (5).stratolog" "rabbitmq-wrapper (9).stratolog~" "logs (7).tar.gz" "pathos-0.1a1 (1).tgz" "test (8).stratolog" "Oracle_VM_VirtualBox_Extension_Pack-5.0.8-103449.vbox-extpack" "test (13).stratolog" "D-large.in" "rabbitmq-wrapper (6).stratolog~" "logs (17).tar.gz" "journal.txt" "logs (12).tar.gz" "logs.tar.gz" "emacs-24.4/" "pycharm-2016.1.2/" "free" "racktests.7_cpu_allocation_changes.tar.bz2" "sub-4 (1).out" "consul-0.6.3.tar.gz" "sslvpnclient64pkg_4.4.2317.tar.gz" "forticlientsslvpn_linux_4.4.2317.tar.gz" "pycharm-professional-2016.1.2.tar.gz" "test.stratolog" "runtime.grad.profile" "A-large (1).in" "CacheCleanerFF3.msi" "fortihostcheck.cab" "sub-src-4.zip" "pathos-0.1a1.tgz" "pypy-5.0.1-linux64.tar.bz2" "sub-4.in" "SslvpnClient.exe" "logs (23).tar.gz" "test (1).stratolog" "logs (8).tar.gz" "logs (4).tar.gz" "rabbitmq-wrapper (2).stratolog~" "racktest.junit.xml.status" "rabbitmq-wrapper (4).stratolog" "snifim_he.xls" "consul.log" "50107.doc" "test (16).stratolog" "forticachecleaner64.cab" "logs (6).tar.gz" "Tamam.docx" "test (9).stratolog" "rabbit1.log" "logs (20).tar.gz" "logs (27).tar.gz" "הצעה מיכאל ינואר 16.docx" "A-large.in" "version.h" "comment-2 (1).txt" "log (1).tar.gz" "python.jpg" "stratonode0.node.strato_151216092814_logdump.tar.gz.tmp" "test (10).stratolog" "gox_0.3.0-1_amd64.deb" "B-small-practice.in" "B-large-practice.in" "noded.stratolog" "logs (1).tar.gz" "A-large-practice (1).in" "rabbitmq-autocluster-master.zip" "nova-compute.txt" "forticachecleaner.cab" "test (20).stratolog" "test (15).stratolog" "forticlientsslvpn/" "logs (9).tar.gz" "rabbitmq-wrapper (8).stratolog" "datalayerevents.log.gzip" "racktest.runner (1).stratolog" "logs (29).tar.gz" "8.doc" "python-oslo-messaging.patch" "consul_0.6.4_linux_amd64.zip" "test.stratolog.txt" "slave-agent (1).jnlp" "rabbitmq-wrapper (3).stratolog~" "AlisaPsakhis.doc" "269034_421632234565257_1693218702_n.jpg" "test (14).stratolog" "test (18).stratolog" "test (6).stratolog" "emacs-deferred-0.3.1.tar.gz" "test (12).stratolog" "impl_rabbit_new.py.zip" "logs (22).tar.gz" "cacheclean.jar" "sub-src-2.zip" "runtime.nrad.profile" "test (4).stratolog" "logs (10).tar.gz" "rabbitmq-wrapper (1).stratolog" "D-small-attempt1.in" "lavie.odt" "scheduler_simulation.py" "logs (13).tar.gz" "rabbitmq-wrapper (2).stratolog" "forticlientsslvpn_linux_4.4.2317 (1).tar.gz" "2015-11-29.jpg" "lavie.jpg" "test_utils_new.py.zip" "download" "impl_rabbit_new.py (1).zip" "minimal_ex.py" "emacs-24.4.tar.gz" "consul-0.5.2.tar.gz" "virtualdesktop.jar" "fortihostcheck64.cab" "logs (2).tar.gz" "2.doc" "test (17).stratolog" "sub-src-1.zip" "stratonode8944.node.strato.log" "test (7).stratolog" "logs (28).tar.gz" "slave-agent.jnlp" "logs (15).tar.gz" "consul.logs.tar.gz" "datalayersysevents.log.gzip" "rabbitmq-wrapper (7).stratolog" "noded (1).stratolog" "logs (18).tar.gz" "log.tar.gz" "ArielKrinitsa8.doc" "logs (16).tar.gz" "logs (3).tar.gz" "stratonode0.node.strato.log" "rabbitmq-wrapper (6).stratolog" "rabbitmq-wrapper (7).stratolog~" "Screen-Shot-2013-07-07-at-10.43.56-PM.png" "noded (2).stratolog" "useravatar.png" "consul-0.6.4.tar.gz" "rabbitmq-wrapper (9).stratolog" "logs (14).tar.gz" "2016_02_29 R&D staffing.xlsx" "Miriam Kreisel- resume (1).pdf" "logs (11).tar.gz" "sub-src-6.zip" "logs (24).tar.gz" "less-css-mode.el" "../" "./")
+
+ ("/home/arie/code_jam/phone_number/" (22309 40506 569284 231000) "./" "test" "A-small.out" "A-large.out" "solver.py" "../")
+
+ ("/home/arie/.config/" (22309 40620 53283 440000) "menus/" "upstart/" "pulse/" "systemd/" "ubuntu-ui-toolkit/" "dconf/" "google-chrome/" "libreoffice/" "nautilus/" "./" "gtk-2.0/" "yelp/" "unity/" "eog/" "gtk-3.0/" "software-center/" "compiz-1/" "pep8" "flake8" "gnome-session/" "libaccounts-glib/" "Trolltech.conf" "user-dirs.dirs" "update-notifier/" "gedit/" "pylintrc" "monitors.xml" "ibus/" "enchant/" "evolution/" "../" "user-dirs.locale" "VirtualBox/")
+
+ ("/home/arie/work/hammock/hammock/" (22309 43833 757261 50000) "types/" "api.py" "backends/" "./" "packages.py" "policy.py" "resource.py" "templates/" "common_resources/" "resource_node.py" "client.py" "common.py" "wrappers/" "exceptions.py" "cli/" "names.py" "__init__.py" "proxy.py" "testing/" "../")
+
+ ("/home/arie/work/rabbitmq-standalone/" (22232 14517 88849 444000) "upseto.manifest" ".git/" "packaging/" "./" ".gitignore" "solvent.manifest" "py/" "../" "Makefile")
+
+ ("/home/arie/.mozilla/" (22043 51144 489310 400000) "./" "firefox/" "extensions/" "../")
+
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/grad/" (22303 6797 47756 719000) "nova/" "incoming_vm.py" "./" "placer.py" "control_endpoint.py" "tests/" "rack_status.py" "config.py" "statscache.py" "test_ok.py" "statsupdaterthread.py" "__init__.py" "control_thread.py" "placement_thread.py" "../" "node_status.py" "main.py")
+
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/common/" (22309 45920 889246 509000) "threading/" "datatypes.py" "polling_updater.py" "__init__.pyc" "singleton.py" "./" "datatypes.pyc" "sla/" "config.py" "thread_pool_singleton.py" "__init__.py" "police.py" "novaweigherclient.py" "../" "ruler.py")
+
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/" (22309 45636 585248 490000) "nradagent/" "kernel.py" "decayingaverage.py" "resource_handler.py" "#vmmanager.py#" "prochelpers.py" "algorithms/" "./" "tests/" "procio.py" "evac_procedure.py" "config.py" "daemon.py" "load_mitigation_procedure.py" "#load_mitigation_vm.py#" "vmmanager.py" "#__init__.py#" "libvirtconnection.py" "newvmswatcher.py" "stats_updater.py" "cpureserve.py" "testnrad.py" "load_mitigation_vm.py" "__init__.py" "vmacceptanceapi.py" "#vm.py#" "vm.py" "reservation.py" "kill_procedure.py" "policyengine.py" "stats/" "limitcontroller.py" "iridium_stats.py" "../" "main.py" "keys.py" "migration_thread.py")
+
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/" (22296 59963 370916 765000) "nrad/" "__init__.pyc" "./" "policy_store/" "wsmbanks.py" "__init__.py" "grad/" "policy_store_client/" "testing/" "../" "common/" "abacusapi/")
+
+ ("/home/arie/abacus_work/abacus/py/strato/" (22296 59963 350916 766000) "runtime/" "__init__.pyc" "./" "agent/" "installation/" "__init__.py" "../" "common/")
+
+ ("/home/arie/abacus_work/abacus/py/" (22294 60 468272 750000) "seeds/" "strato/" "./" "nradclient/" "../")
+
+ ("/home/arie/abacus_work/" (22267 48632 843645 43000) "pycommonlog/" "api-docs/" "rootfs-datalayer-subsys/" "pydonkey/" "openstack-nova/" "strato-plop/" "hamock/" "rackattack-api/" "./" "pycommonhardware/" "loggingtools/" "pycommonmultithreading/" "strato-pylint/" "openstackapi/" "logbeam/" "voodoo-mock/" "strato-kmods/" "abacus/" "stratoconsts/" ".seedcache/" "rootfs-runtime-subsys/" "../" "pywhiteboxtest/" "abacusapi/" "pyracktest/" "runtime-racktest-common/")
+
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/gradrpc/" (22309 45753 437247 676000) "./" "config.py" "gradclient.py" "__init__.py" "../")
+
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/" (22269 1899 522082 213000) "iridium/" "translations/" "gradrpc/" "cpuscheduler/" "./" "tarrpc/" "__init__.py" "nradrpc/" "rpccommon/" "stats/" "../" "keys.py")
+
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/" (22282 20230 133426 800000) "./" "__init__.py" "../" "policy_store_api/" "abacusapi/")
+
+ ("/home/arie/abacus_work/abacusapi/py/strato/" (22282 20230 133426 800000) "runtime/" "./" "sla/" "__init__.py" "../")
+
+ ("/home/arie/abacus_work/abacusapi/py/" (22117 40756 758824 681000) "strato/" "./" "../")
+
+ ("/home/arie/abacus_work/abacusapi/" (22241 18171 214216 575000) "dirbalak.manifest" ".git/" "./" ".gitignore" "solvent.manifest" "pep8.sh" "py/" "../" "Makefile")
+
+ ("/home/arie/work/hammock/" (22296 57503 146991 769000) "NOTICE" "README.md" "MANIFEST.in" "LICENSE" ".git/" "dist/" "./" ".gitignore" "dev-requirements.txt" "tests/" "examples/" "hammock/" "setup.py" "hammock.egg-info/" "../" "tox.ini" "Makefile")
+
+ ("/home/arie/work/northbound/py/strato/northbound/api/resources/" (22309 42197 237272 452000) "thirdpartiesconnnections.py" "events.py" "disks.py" "__init__.pyc" "tenants.py" "images.py" "auth.py" "./" "volumesnapshots.py" "storage.py" "nodes.py" "cluster.py" "alarms.py" "upgrades.py" "users.py" "logdump.py" "maintenance.py" "slaprofiles.py" "VMs.pyc" "tasks.py" "#nodes.py#" "__init__.py" "storagepools.py" "volumes.py" "VMs.py" "cpuscheduler.py" "registry.py" "iridium.py" "networks.py" "appliances.py" "../")
+
+ ("/home/arie/work/northbound/" (22276 50790 871601 335000) "floating-nb/" "README.md" "mock_stratoscale_rpc.conf" "dirbalak.manifest" "upseto.manifest" ".git/" "requirement.txt" "TODO.txt" "./" ".gitignore" "solvent.manifest" "pip_install/" "rpm/" "build/" "py/" "../" "sh/" "Makefile")
+
+ ("/home/arie/work/monkey/py/strato/" (22190 4103 102006 305000) "__init__.pyc" "./" "tests/" "installation/" "__init__.py" "../" "common/")
+
+ ("/home/arie/work/monkey/py/" (22295 4707 848749 826000) "racktestplugins/" "strato/" "guestplugins/" "./" "highavailability/" "__init__.py" "../")
+
+ ("/home/arie/work/strato-pylint/config/" (22309 40593 365283 626000) "./" "pep8" "flake8" "pylintrc" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

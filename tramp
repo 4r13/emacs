@@ -1,0 +1,120 @@
+;; -*- emacs-lisp -*- <16/04/28 08:33:55 /home/arie/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh"
+   #("root" 0 4
+     (fontified t))
+   #("192.168.122.253" 0 15
+     (fontified t))
+   nil nil]
+  ("uname" "Linux 3.0.42-0.7-default")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("file-exists" "test -e"))
+ (["ssh"
+   #("root" 0 4
+     (fontified t))
+   #("192.168.122.254" 0 15
+     (fontified t))
+   nil nil]
+  ("uname" "Linux 3.11.8-200.strato0002.fc19.strato.9ec3c7fa3fb7.x86_64.debug")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl"))
+ (["ssh"
+   #("mille" 0 5
+     (fontified t))
+   #("172.20.0.24" 0 11
+     (fontified t))
+   nil nil]
+  ("uname" "Linux 3.11.8-200.strato0007.fc19.strato.c2beb25c1080.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("file-exists" "test -e"))
+ (["ssh"
+   #("root" 0 4
+     (fontified t))
+   #("172.20.0.20" 0 11
+     (fontified t))
+   nil nil]
+  ("uname" "Linux 3.0.42-0.7-default")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("file-exists" "test -e"))
+ (["ssh" "root" "rack01-server16.strato" nil nil]
+  ("uname" "Linux 3.11.8-200.strato0007.fc19.strato.c2beb25c1080.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/bin/id")
+  ("gid-integer" 0)
+  ("readlink" "\\readlink")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl"))
+ (["scpc" "root" "rack01-server16.strato" nil nil]
+  ("uname" "Linux 3.11.8-200.strato0007.fc19.strato.c2beb25c1080.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("readlink" "\\readlink")
+  ("file-exists" "test -e")
+  ("stat" "\\stat")
+  ("id" "/bin/id")
+  ("gid-integer" 0)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 0))
+ (["scpc" "strato" "10.0.0.194" nil nil]
+  ("uname" "Linux 3.11.8-200.strato0007.fc19.strato.c2beb25c1080.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/bin/id")
+  ("gid-integer" 1000)
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 1000))
+ (["scp" "arie" "-o" nil nil]
+  nil))

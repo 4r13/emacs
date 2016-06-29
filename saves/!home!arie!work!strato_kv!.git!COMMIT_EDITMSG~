@@ -1,0 +1,11 @@
+Udse pprint instead of json dump for logging of changes to maps
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch origin-HEAD
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   py/strato/clusterd/service_distributor.py
+#

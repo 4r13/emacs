@@ -1,0 +1,14 @@
+/home/arie/work/strato_kv/testing/mock/consul.service
+/home/arie/work/strato_kv/testing/mock/#consul.service#
+/home/arie/work/strato_kv/docker/tests/test_20_noded_api.py
+/home/arie/work/strato_kv/docker/tests/#test_20_noded_api.py#
+/home/arie/work/strato_kv/docker/tests/dockertest.py
+/home/arie/work/strato_kv/docker/tests/#dockertest.py#
+/home/arie/work/strato_kv/docker/infra/dockernodedapi.py
+/home/arie/work/strato_kv/docker/infra/#dockernodedapi.py#
+/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi/candidatesclient.py
+/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi/#candidatesclient.py#
+/home/arie/work/strato_kv/docker/node/Dockerfile
+/home/arie/work/strato_kv/docker/node/#Dockerfile#
+/home/arie/work/strato_kv/Makefile
+/home/arie/work/strato_kv/#Makefile#

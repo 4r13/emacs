@@ -1,0 +1,20 @@
+pick 5173a9d Update abacus: * [PIC-560]: fixed policy.json file * [PIC-525]: Add api-docs * Increase timeout for evac to 20 minutes * tag lists now supported * [PIC-498]: added policy.json for Policy Store * remove an obsolete harbour.vmguardian call on vm stop * CLI commands are now in singular, not plural * Remove CPU reservation code
+pick bf2a301 Update strato_kv: * [PIC-581]: Make noded a regular service * Report node management and access ips
+
+# Rebase 0d4bfa8..bf2a301 onto 0d4bfa8 (2 command(s))
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out

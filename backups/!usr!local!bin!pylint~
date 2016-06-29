@@ -1,0 +1,23 @@
+#!/usr/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+import os
+
+if 'UPSETO_JOIN_PYTHON_NAMESPACES' not in os.environ:
+    os.environ['UPSETO_JOIN_PYTHON_NAMESPACES'] = 'true'
+
+for filename in sys.argv[1:]:
+    while filename != '':
+        if os.path.isdir(os.path.join(filename, '.git')):
+            new_path = '{filename}/py:{filename}/infra'.format(filename=filename)
+            os.environ['PYTHONPATH'] = '%s:%s' % (new_path, os.environ['PYTHONPATH']) if os.environ.get('PYTHONPATH', None) else new_path
+            break
+        filename = os.path.split(filename)[0]
+
+from pylint import run_pylint
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(run_pylint())

@@ -1,0 +1,22 @@
+pick 88baa80 Fix CR comments
+pick a24d44a Increase timeout in 5_snl_clique test
+pick 1d1f222 Increase waiting for northbound apis to work again after stopping noded
+pick d60fe61 Wait for node to be down when testing gradual maintenance
+
+# Rebase 40370b3..d60fe61 onto 40370b3 (4 command(s))
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
