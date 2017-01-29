@@ -79,9 +79,9 @@
 (global-set-key (kbd "M-3") 'comment-region)
 (global-set-key (kbd "M-2") 'uncomment-region)
 (global-set-key (kbd "M-#") 'uncomment-region) ;; This is actually M-S-3
-(fset 'post-review
-   [?p ?o ?s ?t ?- ?r ?e  ?v ?i ?e ?w return ])
-(global-set-key (kbd "M-r") 'post-review)
+;; (fset 'post-review
+;;    [?p ?o ?s ?t ?- ?r ?e  ?v ?i ?e ?w return ])
+;; (global-set-key (kbd "M-r") 'post-review)
 
 ;; C-Mode - When pressing on Enter, the next line should be indented. Also, allow to make a newline without indendation.
 (require 'cc-mode)
@@ -110,6 +110,14 @@
   (interactive)
   (scroll-down 1))
 
+(defun rackattack()
+  (interactive)
+  (setq command (read-from-minibuffer "Enter Command (port): " "/usr/bin/sshpass -p \'rackattack\' ssh -o ServerAliveInterval=5 -o ServerAliveCountMax=1 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -L 8083:influxdb.service.strato:8083 -L 8086:influxdb.service.strato:8086 -L 15672:rabbitmq-server.service.strato:15672 root@10.16.3.3 -p "))
+  (ansi-term "/bin/bash")
+  (term-send-raw-string (format "%s\n" command)))
+
+(global-set-key (kbd "M-q") 'rackattack)
+
 ;; XXX overriding default emacs binding?
 (global-set-key [(control meta up)] 'scroll-down-one-line)
 (global-set-key [(control meta down)] 'scroll-up-one-line)
@@ -122,7 +130,7 @@
 (global-set-key [(meta \])] 'move-end-of-line)
 (global-set-key [(meta \[)] 'move-beginning-of-line)
 (global-set-key [(meta b)] 'magit-blame)
-(global-set-key (kbd "M-q") 'py-autopep8)
+;; (global-set-key (kbd "M-q") 'py-autopep8)
 (global-set-key (kbd "C-c .") 'jedi:goto-definition)
 (global-set-key (kbd "M-.") 'jedi:goto-definition)
 (global-set-key (kbd "M-/") 'jedi:goto-definition-pop-marker)

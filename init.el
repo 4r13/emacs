@@ -95,8 +95,12 @@ interpreter-mode-alist))
 ;; (require 'yasnippet-bundle)
 
 (require 'package)
+;; (add-to-list 'package-archives
+;;              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+'("melpa" . "https://melpa.org/packages/"))
+(when (< emacs-major-version 24)
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 
 (require 'settings)
 (require 'marks)
@@ -200,6 +204,12 @@ interpreter-mode-alist))
     (scroll-bar-mode -1))
   (require 'saveplace)
   (setq-default save-place t))
+
+ (eval-after-load 'shell
+   '(progn
+      (autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t)
+      (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on t)
+      t))
 
 (setq visible-bell t
       load-prefer-newer t

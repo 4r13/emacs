@@ -1,28 +1,354 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/arie/work/monkey/racktests/mysql/4_mysql_maintenance.py" . 7982)
- ("/home/arie/work/strato_kv/py/strato/nodedapi/policy.json" . 545)
- ("/home/arie/work/strato_kv/packaging/noded/stateflows.conf" . 281)
- ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/nodes.py" . 17216)
- ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/internal/v1/services.py" . 7434)
- ("/home/arie/work/strato_kv/Makefile" . 176)
- ("/home/arie/work/strato_kv/strato_kv.Makefile" . 590)
+(("/home/arie/work/rootfs-star/manifesto.yaml" . 3677)
+ ("/home/arie/work/rootfs-star/containers/compose/nodedapi.yml" . 10)
+ ("/home/arie/work/datalayer_api/infra/alembic/env.py" . 1755)
+ ("/home/arie/work/datalayer_api/skipper.requirements.list" . 454)
+ ("/home/arie/work/datalayer_api/metrics-service/metrics_service/resources/api/v2/metrics.py" . 6570)
+ ("/home/arie/work/datalayer_api/requirements.txt" . 334)
+ ("/home/arie/work/datalayer_api/Dockerfile.build" . 339)
+ ("/home/arie/work/datalayer_api/dist/"
+  (dired-filename . "/home/arie/work/datalayer_api/dist/dist"))
+ ("/home/arie/work/datalayer_api/artifacts.yaml" . 249)
+ ("/home/arie/work/datalayer_api/Makefile" . 380)
+ ("/home/arie/work/datalayer_api/datalayer-common/datalayer_common/mysql/accessor.py" . 87)
+ ("/home/arie/work/datalayer_api/datalayer-common/datalayer_common/mysql/common.py" . 397)
+ ("/home/arie/work/datalayer_api/datalayer-manager-client/dist/" . 202)
+ ("/home/arie/work/rootfs-star/containers/compose/app-catalog.yml" . 52)
+ ("/home/arie/work/rootfs-star/containers/compose/"
+  (dired-filename . "/home/arie/work/rootfs-star/containers/compose/docker-registry.yml"))
+ ("/home/arie/work/rootfs-star/containers/compose/metrics-service.yml" . 149)
+ ("/home/arie/work/rootfs-star/containers/compose/events-service.yml" . 147)
+ ("/home/arie/work/rootfs-star/containers/compose/alarms-service.yml" . 96)
+ ("/home/arie/work/rootfs-star/py/strato/installation/openstack/novaconfig.py" . 1208)
+ ("/home/arie/monkey_work/monkey/solvent.manifest" . 23)
+ ("/home/arie/monkey_work/monkey/py/strato/tests/stratoapi.py" . 93537)
+ ("/home/arie/work/strato_kv/py/strato/consul/consulservice.py" . 5133)
+ ("/home/arie/work/strato_kv/py/strato/consul/consulstates.py" . 2590)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/vmmanager.py" . 23359)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/stats_updater.py" . 1612)
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/gradrpc/gradclient.py" . 926)
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/gradrpc/config.py" . 3700)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/grad/node_status.py" . 3168)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/grad/rack_status.py" . 5268)
+ ("/home/arie/work/strato_kv/strato_kv.Makefile" . 9090)
+ ("/home/arie/work/strato_kv/Dockerfile.nodedapi" . 189)
+ ("/home/arie/work/datalayer_api/datalayer_manager_client/setup.py" . 593)
+ ("/home/arie/work/datalayer_api/common.Makefile" . 230)
+ ("/home/arie/work/strato_kv/"
+  (dired-filename . "/home/arie/work/strato_kv/tools"))
+ ("/home/arie/work/datalayer_api/"
+  (dired-filename . "/home/arie/work/datalayer_api/common.Makefile"))
+ ("/home/arie/work/rootfs-star/" . 2204)
+ ("/home/arie/work/postinstaller/"
+  (dired-filename . "/home/arie/work/postinstaller/.reviewboardrc"))
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/common/datatypes.py" . 7873)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/common/sla/api.py" . 1482)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/policyengine.py" . 6241)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/common/config.py" . 725)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/grad/nova/migration_service.py" . 443)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/grad/nova/novaweigherendpoint.py" . 3414)
+ ("/home/arie/abacus_work/abacus/py/strato/placementapi/resources/api/v2/gradclient.py" . 9370)
+ ("/home/arie/abacus_work/abacus/"
+  (dired-filename . "/home/arie/abacus_work/abacus/build_unittest"))
+ ("/home/arie/work/datalayer_api/datalayer_manager_client/dist/datalayer-manager-client-9aaf51eb337e03d9ee730906ab2f42f0b7f55d1e.tar.gz" . 600)
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/nradrpc/config.py" . 210)
+ ("/home/arie/work/datalayer_api/datalayer-common/datalayer_common/mysql/setup.py" . 923)
+ ("/home/arie/work/datalayer_api/datalayer_manager_client/"
+  (dired-filename . "/home/arie/work/datalayer_api/datalayer_manager_client/datalayer_manager_client"))
+ ("/home/arie/work/datalayer_api/datalayer_manager_client/dist/"
+  (dired-filename . "/home/arie/work/datalayer_api/datalayer_manager_client/dist/datalayer-manager-client-1d2a284264c7757972af5d365d01d6bf89ccb565.tar.gz"))
+ ("/home/arie/work/datalayer_api/dist/dist/"
+  (dired-filename . "/home/arie/work/datalayer_api/dist/dist/metrics-service-client-c9dbcfb77b160a64f8f85b444b4818c7da8e0cac.tar.gz"))
+ ("/home/arie/work/datalayer_api/dist/metrics_service_client/"
+  (dired-filename . "/home/arie/work/datalayer_api/dist/metrics_service_client/client.py"))
+ ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/translations/scutranslator.py" . 287)
+ ("/home/arie/work/datalayer_api/metrics-service/requirements.list" . 358)
+ ("/home/arie/work/datalayer_api/datalayer-manager-client/"
+  (dired-filename . "/home/arie/work/datalayer_api/datalayer-manager-client/datalayer_manager_client"))
+ ("/home/arie/work/strato_kv/Dockerfile.updatemanagerapi" . 381)
+ ("/home/arie/work/strato_kv/docker.Makefile" . 1065)
+ ("/home/arie/work/strato_kv/artifacts.yaml" . 259)
+ ("/home/arie/work/strato_kv/build/rpms/"
+  (dired-filename . "/home/arie/work/strato_kv/build/rpms/consul-1-0.x86_64.rpm"))
+ ("/home/arie/work/rootfs-star/Makefile" . 3505)
+ ("/home/arie/work/strato_kv/py/strato/cmcommon/urlasker.py" . 1535)
+ ("/home/arie/work/stargate/"
+  (dired-filename . "/home/arie/work/stargate/build_unittest"))
+ ("/home/arie/work/rootfs-star/py/strato/installation/"
+  (dired-filename . "/home/arie/work/rootfs-star/py/strato/installation/services"))
+ ("/home/arie/monkey_work/monkey/racktests/datalayer/2_datalayer_cli.py" . 1054)
+ ("/home/arie/work/harbour/harbour/managers/networks.py" . 1487)
+ ("/home/arie/work/harbour/harbour/consts/sla_profiles.py" . 1181)
+ ("/home/arie/monkey_work/monkey/racktests/failures/13_cluster_maintenance.py" . 3348)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/"
+  (dired-filename . "/home/arie/abacus_work/abacus/py/strato/runtime/nrad/load_mitigation_procedure.py"))
+ ("/home/arie/work/harbour/harbour/" . 1111)
+ ("/home/arie/work/harbour/"
+  (dired-filename . "/home/arie/work/harbour/packaging"))
+ ("/home/arie/work/harbour/packaging/"
+  (dired-filename . "/home/arie/work/harbour/packaging/policy.json"))
+ ("/home/arie/work/harbour/packaging/policy.json" . 570)
+ ("/home/arie/work/datalayer_events/datalayer_events/events.py" . 14348)
+ ("/home/arie/work/harbour/harbour/managers/publisher.py" . 4409)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/vm.py" . 1920)
+ ("/home/arie/work/strato_kv/py/strato/noded/clusterwideactions.py" . 139)
+ ("/home/arie/work/strato-common/strato_common/log/configurelogging.py" . 2247)
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/consts.py" . 790)
+ ("/home/arie/work/strato-common/strato_common/credentials.py" . 2318)
+ ("/home/arie/work/stargate/py/stargate/common/event_sender.py" . 15)
+ ("/home/arie/work/stargate/py/stargate/common/event_instance.py" . 238)
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/nodes.py" . 2009)
+ ("/home/arie/work/strato-common/"
+  (dired-filename . "/home/arie/work/strato-common/setup.py"))
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/"
+  (dired-filename . "/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/cluster.py"))
+ ("/home/arie/work/strato-common/strato_common/log/serial_log.py" . 388)
+ ("/home/arie/work/strato_kv/Dockerfile.build" . 80)
+ ("/home/arie/monkey_work/monkey/py/strato/common/seeds/event_generator.py" . 1553)
+ ("/home/arie/work/python-oslo-messaging/"
+  (dired-filename . "/home/arie/work/python-oslo-messaging/CONTRIBUTING.rst"))
+ ("/home/arie/work/rootfs-star/py/strato/installation/main.py" . 10988)
+ ("/home/arie/work/strato_kv/strato-requirements.txt" . 68)
+ ("/home/arie/work/strato_kv/requirements.txt" . 220)
+ ("/home/arie/abacus_work/abacus/abacus.Makefile" . 352)
+ ("/home/arie/work/rootfs-star/containers/compose/configurator.yml" . 256)
+ ("/home/arie/work/strato_kv/testing/remotesetup.py" . 3402)
+ ("/home/arie/work/python-oslo-messaging/oslo_messaging/_drivers/impl_rabbit.py" . 40181)
+ ("/home/arie/work/rootfs-star-base/python_pkgs.Makefile" . 1331)
+ ("/home/arie/work/strato_kv/racktests/basic/3_shut_one_consul.py" . 388)
+ ("/home/arie/work/rootfs-datalayer-subsys/python_pkgs.Makefile" . 329)
+ ("/home/arie/work/configurator/"
+  (dired-filename . "/home/arie/work/configurator/artifacts.yaml"))
+ ("/home/arie/work/configurator/requirements.txt" . 50)
+ ("/home/arie/work/configurator/strato-requirements.txt" . 99)
+ ("/home/arie/work/strato_kv/solvent.manifest" . 591)
+ ("/home/arie/work/symphony-client/symphony_client/client.py" . 2749)
+ ("/home/arie/work/rootfs-datalayer-subsys/"
+  (dired-filename . "/home/arie/work/rootfs-datalayer-subsys/dirbalak.manifest"))
+ ("/home/arie/work/rootfs-datalayer-subsys/strato-requirements.txt" . 193)
+ ("/home/arie/work/rootfs-datalayer-subsys/Makefile" . 3328)
+ ("/home/arie/work/rootfs-datalayer-subsys/external_pkgs.Makefile" . 384)
+ ("/home/arie/work/cluster-joiner/py/strato/cluster_joiner/cluster_joiner.py" . 3375)
+ ("/home/arie/work/configurator/configurator/resources/api/v2/local.py" . 4552)
+ ("/home/arie/work/postinstaller/py/strato/postconfiguration/main.py" . 4743)
+ ("/home/arie/work/postinstaller/py/"
+  (dired-filename . "/home/arie/work/postinstaller/py/strato"))
+ ("/home/arie/work/postinstaller/py/strato/networking/network.py" . 104)
+ ("/home/arie/work/configurator/configurator/managers/configuration.py" . 15)
+ ("/home/arie/work/postinstaller/py/strato/postconfiguration/misc.py" . 465)
+ ("/home/arie/work/configurator/configurator/main.py" . 616)
+ ("/home/arie/work/python-oslo-messaging/oslo_messaging/_drivers/matchmaker.py" . 7450)
+ ("/home/arie/work/python-oslo-messaging/oslo_messaging/_drivers/matchmaker_ring.py" . 2791)
+ ("/home/arie/.netrc" . 45)
+ ("/home/arie/work/rabbitmq-standalone/py/strato/rabbitmq/"
+  (dired-filename . "/home/arie/work/rabbitmq-standalone/py/strato/rabbitmq/rabbitmqwrapper.py"))
+ ("/home/arie/work/rabbitmq-standalone/py/strato/rabbitmq/rabbitmqwrapper.py" . 7650)
+ ("/home/arie/work/postinstaller/py/strato/preconfiguration/main.py" . 2054)
+ ("/home/arie/work/postinstaller/py/strato/postconfiguration/"
+  (dired-filename . "/home/arie/work/postinstaller/py/strato/postconfiguration/main.py"))
+ ("/home/arie/work/spout/py/strato/spout/answerfile.py" . 69)
+ ("/home/arie/work/spout/"
+  (dired-filename . "/home/arie/work/spout/whiteboxtest"))
+ ("/home/arie/work/strato_kv/packaging/updatemanagerapi/py-requirements.txt" . 164)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/policy_store/tagger.py" . 654)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/policy_store/tag_dict.py" . 385)
+ ("/home/arie/work/harbour/harbour/managers/vms.py" . 3424)
+ ("/home/arie/work/configurator/Dockerfile.build" . 133)
+ ("/home/arie/abacus_work/abacus/py/strato/runtime/policy_store/db/base.py" . 715)
+ ("/home/arie/work/"
+  (dired-filename . "/home/arie/work/abacus"))
+ ("/home/arie/work/strato_kv/packaging/nodedapi/py-requirements.txt" . 274)
+ ("/home/arie/work/configurator/build/configurator_client/common.py" . 156)
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/cluster.py" . 4007)
+ ("/home/arie/work/monkey/"
+  (dired-filename . "/home/arie/work/monkey/build"))
+ ("/home/arie/monkey_work/monkey/"
+  (dired-filename . "/home/arie/monkey_work/monkey/.connections"))
+ ("/home/arie/work/configurator/setup.py" . 596)
+ ("/home/arie/work/configurator/configurator/api.py" . 299)
+ ("/home/arie/work/kuiper/py/strato/kuiper/alarmprocessor.py" . 2946)
+ ("/home/arie/work/kuiper/py/strato/kuiper/"
+  (dired-filename . "/home/arie/work/kuiper/py/strato/kuiper/alarms"))
+ ("/home/arie/work/kuiper/py/strato/kuiper/alarms/"
+  (dired-filename . "/home/arie/work/kuiper/py/strato/kuiper/alarms/storagepool.py"))
+ ("/home/arie/work/kuiper/py/strato/kuiper/alarms/storagepool.py" . 3332)
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/stateflowsapi.py" . 1386)
+ ("/home/arie/work/strato_kv/packaging/consul/consul.service" . 321)
+ ("/home/arie/work/cluster-joiner/py/strato_net/installlib/snmrunner.py" . 2456)
+ ("/home/arie/work/cluster-joiner/" . 1791)
+ ("/home/arie/work/sagittarius/"
+  (dired-filename . "/home/arie/work/sagittarius/artifacts.yaml"))
+ ("/home/arie/work/sagittarius/dirbalak.Makefile" . 265)
+ ("/home/arie/work/configurator/artifacts.yaml" . 113)
+ ("/home/arie/work/sagittarius/packaging/sagittarius.spec" . 240)
+ ("/home/arie/work/sagittarius/sagittarius.Makefile" . 2237)
+ ("/home/arie/work/configurator/configurator/managers/"
+  (dired-filename . "/home/arie/work/configurator/configurator/managers/configuration.py"))
+ ("/home/arie/work/strato-common/strato_common/configfile.py" . 31)
+ ("/home/arie/work/configurator/configurator/" . 675)
+ ("/home/arie/work/rootfs-star/containers/compose/clusterjoiner.yml" . 561)
+ ("/home/arie/work/cluster-joiner/Dockerfile.cluster-joiner" . 198)
+ ("/home/arie/work/configurator/Dockerfile.configurator" . 1136)
+ ("/home/arie/work/strato_kv/py/strato/noded/main.py" . 17)
+ ("/home/arie/work/strato_kv/py/strato/noded/noded.py" . 4462)
+ ("/home/arie/work/strato_kv/py/strato/noded/configurator_relay_thread.py" . 1091)
+ ("/home/arie/work/configurator/Makefile" . 5)
+ ("/home/arie/work/configurator/configurator.Makefile" . 468)
+ ("/home/arie/work/rootfs-star/rpm_list.Makefile" . 2353)
+ ("/home/arie/work/configurator/configurator/managers/users.py" . 54)
+ ("/home/arie/"
+  (dired-filename . "/home/arie/.bashrc"))
+ ("/home/arie/work/configurator/configurator/converter.py" . 333)
+ ("/home/arie/work/configurator/configurator/conversionutils.py" . 515)
+ ("/home/arie/work/postinstaller/py/strato/common/upgrades.py" . 2561)
+ ("/home/arie/work/postinstaller/py/strato/"
+  (dired-filename . "/home/arie/work/postinstaller/py/strato/postconfiguration"))
+ ("/home/arie/work/postinstaller/py/strato/postconfiguration/database.py" . 173)
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/"
+  (dired-filename . "/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/consts.py"))
+ ("/home/arie/work/strato_kv/py/strato/noded/"
+  (dired-filename . "/home/arie/work/strato_kv/py/strato/noded/health_reporting_thread.py"))
+ ("/home/arie/work/strato_kv/py/strato/noded/servicemanager.py" . 17469)
+ ("/home/arie/work/strato_kv/py/strato/cmcommon/config.py" . 1615)
+ ("/home/arie/abacus_work/abacus/packaging/nrad/nrad.service" . 249)
+ ("/home/arie/monkey_work/pydonkey/py/strato/donkey/plugins/logfetch.py" . 2041)
+ ("/home/arie/work/strato-common/strato_common/log/config.py" . 972)
+ ("/home/arie/work/strato_kv/py/strato/consul/consulhelpers.py" . 676)
+ ("/home/arie/work/strato_kv/py/strato/consul/consulconfig.py" . 683)
+ ("/usr/lib/python2.7/logging/__init__.py" . 5730)
+ ("/home/arie/work/postinstaller/Makefile" . 856)
+ ("/home/arie/work/postinstaller/strato-requirements.txt" . 147)
+ ("/home/arie/work/strato_kv/py/strato/noded/health_reporting_thread.py" . 100)
+ ("/home/arie/monkey_work/monkey/racktests/nodes/3_node_maintenance_basic_flow.py" . 8112)
+ ("/home/arie/monkey_work/monkey/racktests/failures/14_node_crash_scenarios.py" . 7498)
+ ("/home/arie/work/rootfs-star/py/strato/installation/services/nodeservices.yaml" . 305)
+ ("/home/arie/work/postinstaller/py/strato/preconfiguration/dockerregistry.py" . 102)
+ ("/home/arie/work/rootfs-star/deployment/answerfile.py" . 470)
+ ("/home/arie/work/strato_kv/packaging/noded/"
+  (dired-filename . "/home/arie/work/strato_kv/packaging/noded/strato-noded.conf"))
+ ("/home/arie/work/rootfs-star/docker-engine/docker.service" . 463)
+ ("/home/arie/work/postinstaller/py/strato/postconfiguration/users.py" . 510)
+ ("/usr/lib/python2.7/shutil.py" . 8272)
+ ("/home/arie/work/strato-common/strato_common/"
+  (dired-filename . "/home/arie/work/strato-common/strato_common/event.py"))
+ ("/home/arie/work/sagittarius/Makefile" . 460)
+ ("/home/arie/work/sagittarius/artifacts.yaml" . 94)
+ ("/home/arie/work/cluster-joiner/artifacts.yaml" . 38)
+ ("/home/arie/work/configurator/configurator/managers/networking.py" . 3198)
+ ("/home/arie/work/strato_kv/packaging/nodedapi.spec" . 531)
+ ("/home/arie/work/strato_kv/packaging/consul/"
+  (dired-filename . "/home/arie/work/strato_kv/packaging/consul/consul.service"))
+ ("/home/arie/work/strato_kv/packaging/"
+  (dired-filename . "/home/arie/work/strato_kv/packaging/consul"))
+ ("/home/arie/work/rootfs-star-base/rpm_pkgs.Makefile" . 195)
+ ("/home/arie/work/spout/Makefile" . 116)
+ ("/home/arie/work/strato_kv/packaging/nodedapi/"
+  (dired-filename . "/home/arie/work/strato_kv/packaging/nodedapi/#py-requirements.txt#"))
+ ("/home/arie/work/strato_kv/packaging/nodedapi/#py-requirements.txt#" . 229)
+ ("/home/arie/work/configurator/tox.ini" . 409)
+ ("/home/arie/work/strato-common/strato_common/dockerutils.py" . 3158)
+ ("/home/arie/work/mysql-wrapper/py/mysql_common/mysql_utils.py" . 902)
+ ("/home/arie/work/configurator/skipper.yaml" . 123)
+ ("/home/arie/work/configurator/.gitignore" . 112)
+ ("/home/arie/work/configurator/build/"
+  (dired-filename . "/home/arie/work/configurator/build/configurator_client"))
+ ("/home/arie/work/configurator/configurator-client/configurator_client/app.py" . 2277)
+ ("/home/arie/work/configurator/dirbalak.manifest" . 82)
+ ("/home/arie/work/datalayer_api/datalayer_manager/"
+  (dired-filename . "/home/arie/work/datalayer_api/datalayer_manager/resources"))
+ ("/home/arie/work/harbour/harbour/managers/nodes.py" . 1216)
+ ("/home/arie/work/postinstaller/py/strato/preconfiguration/"
+  (dired-filename . "/home/arie/work/postinstaller/py/strato/preconfiguration/dockerregistry.py"))
+ ("/home/arie/work/postinstaller/py/strato/postinstaller/"
+  (dired-filename . "/home/arie/work/postinstaller/py/strato/postinstaller/database.pyc"))
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/policy.json" . 1272)
+ ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/internal/v1/services.py" . 7721)
+ ("/home/arie/monkey_work/monkey/racktests/datalayer/3_metrics.py" . 5667)
+ ("/home/arie/monkey_work/monkey/racktests/datalayer/"
+  (dired-filename . "/home/arie/monkey_work/monkey/racktests/datalayer/3_v3_events_sanity.py"))
+ ("/home/arie/work/datalayer_api/tests/ut/"
+  (dired-filename . "/home/arie/work/datalayer_api/tests/ut/base.py"))
+ ("/home/arie/work/rootfs-star/containers/"
+  (dired-filename . "/home/arie/work/rootfs-star/containers/compose"))
+ ("/home/arie/work/rootfs-star/sh/"
+  (dired-filename . "/home/arie/work/rootfs-star/sh/services"))
+ ("/home/arie/work/rootfs-star/sh/services/"
+  (dired-filename . "/home/arie/work/rootfs-star/sh/services/base"))
+ ("/home/arie/work/rootfs-star/sh/services/base/"
+  (dired-filename . "/home/arie/work/rootfs-star/sh/services/base/influxdb.service"))
+ ("/home/arie/work/rootfs-star/sh/services/base/influxdb.service" . 447)
+ ("/home/arie/work/rootfs-star-base/Makefile" . 9265)
+ ("/home/arie/work/harbour/harbour/managers/sla_profiles.py" . 285)
+ ("/home/arie/work/milky-way/"
+  (dired-filename . "/home/arie/work/milky-way/dirbalak.Makefile"))
+ ("/home/arie/work/gargantua/"
+  (dired-filename . "/home/arie/work/gargantua/gargantua.Makefile"))
+ ("/home/arie/work/milky-way/upseto.manifest" . 94)
+ ("/home/arie/work/rootfs-star/py/strato/installation/services/"
+  (dired-filename . "/home/arie/work/rootfs-star/py/strato/installation/services/baseservices.yaml"))
+ ("/home/arie/work/rootfs-star/config_jsons/"
+  (dired-filename . "/home/arie/work/rootfs-star/config_jsons/strato_policy.json"))
+ ("/home/arie/monkey_work/monkey/py/strato/common/seeds/datalayer.py" . 243)
+ ("/home/arie/monkey_work/monkey/upseto.manifest" . 400)
+ ("/home/arie/work/strato_kv/upseto.manifest" . 879)
+ ("/home/arie/work/northbound/"
+  (dired-filename . "/home/arie/work/northbound/build"))
+ ("/home/arie/work/symphony-client/"
+  (dired-filename . "/home/arie/work/symphony-client/client-requirements.txt"))
+ ("/home/arie/monkey_work/monkey/py/guestplugins/stress.py" . 3304)
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/clustermanagementapi.py" . 4232)
+ ("/home/arie/work/strato_kv/py/"
+  (dired-filename . "/home/arie/work/strato_kv/py/strato"))
+ ("/home/arie/work/strato_kv/py/strato/noded/nodestatetransitions.py" . 1459)
+ ("/home/arie/work/strato_kv/infra/strato_kv/consulutils/"
+  (dired-filename . "/home/arie/work/strato_kv/infra/strato_kv/consulutils/globalhealthchecksclient.py"))
+ ("/home/arie/work/strato_kv/infra/strato_kv/consulutils/consulserverslistaccess.py" . 693)
+ ("/home/arie/work/strato_kv/packaging/noded/stateflows.conf" . 928)
+ ("/home/arie/work/sagittarius/py/sagittarius/influxdb/events.py" . 514)
+ ("/home/arie/work/sagittarius/py/sagittarius/directfactory.py" . 2714)
+ ("/home/arie/work/sagittarius/py/sagittarius/amqp/kombu/blockingsubscriber.py" . 830)
+ ("/home/arie/work/kuiper/py/strato/kuiper/eventssink.py" . 1160)
+ ("/home/arie/work/kuiper/py/strato/kuiper/alarmcontroller.py" . 580)
+ ("/home/arie/monkey_work/monkey/py/strato/tests/vmcontrol.py" . 14483)
+ ("/home/arie/work/datalayer_api/datalayer_manager/resources/"
+  (dired-filename . "/home/arie/work/datalayer_api/datalayer_manager/resources/api"))
+ ("/home/arie/work/datalayer_api/datalayer_manager/resources/api/"
+  (dired-filename . "/home/arie/work/datalayer_api/datalayer_manager/resources/api/v2"))
+ ("/home/arie/work/datalayer_api/datalayer_manager/resources/api/v2/"
+  (dired-filename . "/home/arie/work/datalayer_api/datalayer_manager/resources/api/v2/metrics.py"))
+ ("/home/arie/monkey_work/pydonkey/py/strato/donkey/guests/plugins.py" . 84)
+ ("/home/arie/work/mysql-wrapper/py/mysql_wrapper/cluster_params.py" . 497)
+ ("/home/arie/.emacs.d/elpa/magit-20160815.1946/magit-section.el" . 15276)
+ ("/home/arie/.emacs.d/"
+  (dired-filename . "/home/arie/.emacs.d/.."))
+ ("/home/arie/.emacs.d/elpa/magit-20160815.1946/magit-mode.el" . 11290)
+ ("/home/arie/.emacs.d/elpa/magit-20160815.1946/"
+  (dired-filename . "/home/arie/.emacs.d/elpa/magit-20160815.1946/magit-apply.elc"))
+ ("/home/arie/.emacs.d/elpa/magit-20160815.1946/magit-autoloads.el" . 54663)
+ ("/home/arie/.emacs.d/elpa/magit-popup-20160813.642/magit-popup-autoloads.el" . 265)
+ ("/home/arie/.emacs.d/elpa/cl-generic-0.3/cl-generic-autoloads.el" . 419)
+ ("/home/arie/.emacs.d/elpa/seq-2.16/seq-autoloads.el" . 265)
+ ("/home/arie/.emacs.d/init.el" . 3422)
+ ("/home/arie/.emacs.d/lisp/keys.el" . 4628)
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedrpcclient.py" . 8291)
+ ("/home/arie/work/strato_kv/py/strato/noded/rpcserver.py" . 6713)
+ ("/home/arie/work/strato_kv/py/strato/noded/stateflows.py" . 1339)
+ ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/stateflowsapiadapter.py" . 597)
+ ("/usr/share/emacs/24.5/lisp/term.el.gz" . 55077)
+ ("/usr/share/emacs/24.5/etc/HELLO" . 122)
+ ("/home/arie/.git-prompt.sh" . 9242)
+ ("/home/arie/code_jam/structures/union_find.py" . 1692)
+ ("/home/arie/code_jam/structures/binary_heap.py" . 783)
  ("/home/arie/work/strato_kv/docker/tests/"
   (dired-filename . "/home/arie/work/strato_kv/docker/tests/.."))
  ("/home/arie/work/strato_kv/docker/infra/"
   (dired-filename . "/home/arie/work/strato_kv/docker/infra/dockercluster.py"))
  ("/home/arie/work/strato_kv/docker/infra/dockercluster.py" . 1323)
- ("/home/arie/work/strato_kv/docker.Makefile" . 575)
- ("/home/arie/work/strato_kv/"
-  (dired-filename . "/home/arie/work/strato_kv/unittests"))
  ("/home/arie/work/strato_kv/docker/infra/dockerconsts.py" . 208)
  ("/home/arie/work/strato_kv/docker/tests/test_20_noded_api.py" . 91)
  ("/home/arie/work/strato_kv/docker/infra/dockernodedapi.py" . 2806)
  ("/home/arie/work/monkey/racktests/failures/10_node_fail_data_interface.py" . 1088)
- ("/home/arie/work/monkey/"
-  (dired-filename . "/home/arie/work/monkey/build"))
  ("/home/arie/work/monkey/py/strato/tests/basetests/interfaceFailure.py" . 10163)
- ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/api/v2/cluster.py" . 1486)
- ("/home/arie/work/mysql-wrapper/py/mysql_common/mysql_utils.py" . 556)
  ("/home/arie/work/strato_kv/packaging/strato-noded.spec" . 1107)
  ("/home/arie/work/monkey/py/strato/tests/stratoapi.py" . 78525)
  ("/home/arie/work/strato_kv/docker/"
@@ -30,13 +356,6 @@
  ("/home/arie/work/strato_kv/docker/infra/dockercontainer.py" . 1409)
  ("/home/arie/work/strato_kv/docker/tests/dockertest.py" . 2948)
  ("/home/arie/work/monkey/racktests/failures/6_node_crash.py" . 2969)
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/stateflowsapiadapter.py" . 510)
- ("/home/arie/work/strato_kv/py/strato/noded/servicemanager.py" . 10059)
- ("/home/arie/work/strato_kv/py/strato/noded/nodestatetransitions.py" . 2710)
- ("/home/arie/work/strato_kv/py/strato/noded/noded.py" . 1483)
- ("/home/arie/work/strato_kv/py/strato/consul/consulservice.py" . 8608)
- ("/home/arie/work/rootfs-star/config_jsons/"
-  (dired-filename . "/home/arie/work/rootfs-star/config_jsons/strato_policy.json"))
  ("/home/arie/work/rootfs-star/racktests/"
   (dired-filename . "/home/arie/work/rootfs-star/racktests/2_ntp_test.py"))
  ("/home/arie/work/monkey/py/racktestplugins/nodeproperties.py" . 207)
@@ -45,16 +364,10 @@
   (dired-filename . "/home/arie/work/monkey/racktests/openstack/30_node_actions_tenants_users.py"))
  ("/home/arie/work/hammock/hammock/exceptions.py" . 176)
  ("/home/arie/work/monkey/racktests/openstack/30_node_actions_tenants_users.py" . 933)
- ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/"
-  (dired-filename . "/home/arie/abacus_work/abacus/py/strato/runtime/nrad/stats_updater.py"))
  ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/config.py" . 485)
  ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/daemon.py" . 600)
- ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/nradrpc/config.py" . 195)
- ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/stats_updater.py" . 1597)
  ("/home/arie/work/northbound/py/strato/northbound/api/resources/cluster.py" . 2209)
  ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/clusterstatusretriever.py" . 2365)
- ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/vmmanager.py" . 27317)
- ("/home/arie/work/mysql-wrapper/py/mysql_wrapper/cluster_params.py" . 1843)
  ("/home/arie/work/monkey/racktests/docker/1_docker_registry_sanity.py" . 2080)
  ("/home/arie/work/monkey/tools/monitoring/signatures/"
   (dired-filename . "/home/arie/work/monkey/tools/monitoring/signatures/BK-2897.yml"))
@@ -63,8 +376,6 @@
   (dired-filename . "/usr/lib/python2.7/dist-packages/upseto.pth"))
  ("/usr/local/lib/python2.7/dist-packages/"
   (dired-filename . "/usr/local/lib/python2.7/dist-packages/urllib3"))
- ("/home/arie/work/strato_kv/py/strato/cmcommon/urlasker.py" . 35)
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedrpcclient.py" . 1809)
  ("/home/arie/work/nginx-config/"
   (dired-filename . "/home/arie/work/nginx-config/config_files"))
  ("/home/arie/work/nginx-config/config_files/"
@@ -75,26 +386,20 @@
  ("/home/arie/work/rootfs-runtime-build/strato-requirements.txt" . 247)
  ("/home/arie/work/hammock/"
   (dired-filename . "/home/arie/work/hammock/dev-requirements.txt"))
- ("/home/arie/work/strato-common/strato_common/credentials.py" . 447)
- ("/home/arie/work/strato-common/"
-  (dired-filename . "/home/arie/work/strato-common/gen_common_lib.py"))
  ("/home/arie/work/monkey/racktests/"
   (dired-filename . "/home/arie/work/monkey/racktests/openstack"))
  ("/home/arie/work/monkey/requirements.txt" . 655)
- ("/home/arie/work/strato_kv/strato-requirements.txt" . 499)
  ("/home/arie/work/strato_kv/py/strato/nodedapi/nodedapiservice.py" . 195)
  ("/home/arie/work/mysql-wrapper/"
   (dired-filename . "/home/arie/work/mysql-wrapper/build"))
  ("/home/arie/work/strato_kv/py/strato/clusterd/"
   (dired-filename . "/home/arie/work/strato_kv/py/strato/clusterd/leader_elector.py"))
  ("/home/arie/work/strato_kv/py/strato/clusterd/leader_elector.py" . 6773)
- ("/home/arie/work/strato_kv/packaging/nodedapi/nodedapi.service" . 28)
  ("/home/arie/work/monkey/py/strato/tests/clusterjoinercontrol.py" . 1209)
  ("/home/arie/work/monkey/py/strato/tests/monkeytest.py" . 6620)
  ("/home/arie/work/nginx-config/config_files/strato-cluster-services-config.json" . 6645)
  ("/home/arie/work/cluster-joiner/py/strato/cluster_joiner/"
   (dired-filename . "/home/arie/work/cluster-joiner/py/strato/cluster_joiner/cluster_joiner.py"))
- ("/home/arie/work/cluster-joiner/py/strato/cluster_joiner/cluster_joiner.py" . 8574)
  ("/home/arie/work/monkey/py/strato/tests/clusterverifier.py" . 462)
  ("/home/arie/work/monkey/racktests/chimpanzee/1_vms_basic_functionality.py" . 12379)
  ("/home/arie/work/mysql-wrapper/sh/mysql.service" . 155)
@@ -111,13 +416,9 @@
  ("/home/arie/work/strato_kv/docker/centos-base/py-requirements.txt" . 363)
  ("/home/arie/work/strato_kv/docker/centos-base/Dockerfile" . 1030)
  ("/home/arie/work/monkey/racktests/nodes/3_node_maintenance_basic_flow.py" . 13700)
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/"
-  (dired-filename . "/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi"))
  ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi/"
   (dired-filename . "/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi/nodeshelper.py"))
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/consts.py" . 613)
  ("/home/arie/work/monkey/py/strato/tests/nodecontrol.py" . 18269)
- ("/home/arie/work/rootfs-star/" . 2181)
  ("/home/arie/work/monkey/racktests/highavailability/4_kill_libvirt.py" . 9921)
  ("/home/arie/work/strato_kv/py/strato/noded/nodestates.py" . 1484)
  ("/home/arie/work/monkey/tools/monitoring/signatures/PIC-493.yml" . 225)
@@ -128,17 +429,12 @@
  ("/home/arie/work/monkey/racktests/storage/6_mancala_double_failure.py" . 5588)
  ("/home/arie/work/strato_kv/infra/strato_kv/consulate/api.py" . 21593)
  ("/home/arie/work/strato_kv/infra/strato_kv/consulutils/globalhealthchecksclient.py" . 531)
- ("/home/arie/work/strato_kv/infra/strato_kv/consulutils/"
-  (dired-filename . "/home/arie/work/strato_kv/infra/strato_kv/consulutils/nodestatusaccess.py"))
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/clustermanagementapi.py" . 2858)
  ("/home/arie/work/strato_kv/infra/strato_kv/consulutils/consulagentaccess.py" . 1798)
  ("/home/arie/work/strato_kv/packaging/noded/strato-noded.service" . 46)
- ("/home/arie/work/strato_kv/py/strato/consul/consulconfig.py" . 971)
  ("/home/arie/work/strato_kv/docker/rabbitmq/Dockerfile" . 246)
  ("/home/arie/work/strato_kv/docker/rabbitmq/py-requirements.txt" . 12)
  ("/home/arie/work/monkey/racktests/failures/14_node_crash_scenarios.py" . 133)
  ("/home/arie/work/cluster-joiner/py/strato/cluster_joiner/clusterlistprovider.py" . 555)
- ("/home/arie/work/strato_kv/requirements.txt" . 21)
  ("/home/arie/work/strato_kv/docker/docker-tests-requirements.txt" . 104)
  ("/home/arie/work/strato_kv/docker/node/usr/share/stratoscale/strato/services/strato-netmanager.py" . 1983)
  ("/home/arie/work/strato_kv/docker/infra/dockernode.py" . 77)
@@ -151,7 +447,6 @@
   (dired-filename . "/home/arie/work/nginx-config/files/mime.types"))
  ("/home/arie/work/nginx-config/nginx_config/"
   (dired-filename . "/home/arie/work/nginx-config/nginx_config/__init__.py"))
- ("/home/arie/work/strato_kv/py/strato/cmcommon/config.py" . 1834)
  ("/home/arie/work/strato_kv/docker/node/etc/stratoscale/rpc.conf" . 201)
  ("/home/arie/work/monkey/Makefile" . 4845)
  ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/migration_thread.py" . 1235)
@@ -161,9 +456,7 @@
  ("/home/arie/work/northbound/py/strato/northbound/api/resources/nodes.py" . 1367)
  ("/home/arie/work/harbour/harbour/resources/nodes.py" . 1282)
  ("/home/arie/work/harbour/harbour/managers/types.py" . 11182)
- ("/home/arie/work/harbour/harbour/managers/nodes.py" . 1779)
  ("/home/arie/work/monkey/py/racktestplugins/failures.py" . 6423)
- ("/home/arie/work/strato_kv/packaging/nodedapi.spec" . 1038)
  ("/home/arie/work/strato_kv/py/strato/nodedapi/resources/"
   (dired-filename . "/home/arie/work/strato_kv/py/strato/nodedapi/resources/__init__.py"))
  ("/home/arie/work/strato_kv/py/strato/nodedapi/"
@@ -181,13 +474,7 @@
  ("/home/arie/work/melet-api/melet_api/api.py" . 87)
  ("/home/arie/work/melet-api/melet_api/resources/"
   (dired-filename . "/home/arie/work/melet-api/melet_api/resources/disks.py"))
- ("/home/arie/work/strato_kv/packaging/"
-  (dired-filename . "/home/arie/work/strato_kv/packaging/noded"))
- ("/home/arie/work/strato_kv/packaging/noded/"
-  (dired-filename . "/home/arie/work/strato_kv/packaging/noded/stateflows.conf"))
  ("/home/arie/work/melet-api/melet_api/resources/internal/v2/storage/cluster.py" . 633)
- ("/home/arie/work/rabbitmq-standalone/py/strato/rabbitmq/rabbitmqwrapper.py" . 2001)
- ("/home/arie/work/rootfs-star/Makefile" . 11894)
  ("/home/arie/work/monkey/py/strato/tests/dockercontrol.py" . 1368)
  ("/home/arie/.emacs.d/elpa/" . 2924)
  ("/home/arie/work/rootfs-star/nf_conntrack.conf.sysctl" . 55)
@@ -204,79 +491,5 @@
   (dired-filename . "/home/arie/work/harbour/harbour/resources/nodes.py"))
  ("/home/arie/work/monkey/tools/monitoring/signatures/BK-2985.yml" . 186)
  ("/home/arie/work/monkey/tools/test_signatures.py" . 1189)
- ("/home/arie/work/symphony-client/"
-  (dired-filename . "/home/arie/work/symphony-client/client-requirements.txt"))
- ("/home/arie/work/symphony-client/symphony_client/client.py" . 2085)
- ("/home/arie/work/strato_kv/py/strato/noded/health_reporting_thread.py" . 352)
  ("/home/arie/work/cluster-joiner/py/strato/cluster_joiner/node_configuration_collector.py" . 4061)
- ("/home/arie/work/harbour/"
-  (dired-filename . "/home/arie/work/harbour/harbour"))
- ("/home/arie/work/harbour/harbour/"
-  (dired-filename . "/home/arie/work/harbour/harbour/harbour.conf"))
- ("/home/arie/work/harbour/harbour/harbour.conf" . 28)
- ("/home/arie/work/harbour/subsystem_tests/"
-  (dired-filename . "/home/arie/work/harbour/subsystem_tests/__init__.py"))
- ("/home/arie/work/harbour/tools/"
-  (dired-filename . "/home/arie/work/harbour/tools/rackattack-nas-ca.crt"))
- ("/home/arie/abacus_work/abacus/"
-  (dired-filename . "/home/arie/abacus_work/abacus/build_unittest"))
- ("/home/arie/work/postinstaller/"
-  (dired-filename . "/home/arie/work/postinstaller/build"))
- ("/usr/lib/python2.7/Queue.py" . 1071)
- ("/home/arie/work/symphony-client/symphony_client/temp_clients/cluster.py" . 6377)
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/nodedapi/consts.py" . 438)
- ("/home/arie/.emacs.d/elpa/magit-20160501.1814/magit-mode.el" . 14747)
- ("/home/arie/.emacs.d/elpa/flycheck-20160430.610/"
-  (dired-filename . "/home/arie/.emacs.d/elpa/flycheck-20160430.610/flycheck.el"))
- ("/home/arie/.emacs.d/elpa/flycheck-20160430.610/flycheck.el" . 300962)
- ("/home/arie/.emacs.d/init.el" . 5003)
- ("/home/arie/.emacs.d/"
-  (dired-filename . "/home/arie/.emacs.d/.."))
- ("/home/arie/.emacs.d/elpa/magit-20160501.1814/"
-  (dired-filename . "/home/arie/.emacs.d/elpa/magit-20160501.1814/magit-autorevert.elc"))
- ("/home/arie/.emacs.d/elpa/epl-20150517.433/epl-autoloads.el" . 220)
- ("/home/arie/.emacs.d/elpa/dash-20160501.1123/dash-autoloads.el" . 244)
- ("/home/arie/.emacs.d/elpa/drag-stuff-20160426.2331/drag-stuff-autoloads.el" . 1479)
- ("/home/arie/.emacs.d/elpa/flycheck-20160430.610/flycheck-autoloads.el" . 8381)
- ("/home/arie/.emacs.d/elpa/jedi-20160425.2156/jedi-autoloads.el" . 1012)
- ("/home/arie/.emacs.d/elpa/jedi-core-20160501.2043/jedi-core-autoloads.el" . 3658)
- ("/home/arie/.emacs.d/elpa/s-20160429.727/s-autoloads.el" . 235)
- ("/home/arie/.emacs.d/elpa/archives/"
-  (dired-filename . "/home/arie/.emacs.d/elpa/archives/melpa"))
- ("/home/arie/.emacs.d/elpa/archives/melpa/"
-  (dired-filename . "/home/arie/.emacs.d/elpa/archives/melpa/archive-contents"))
- ("/home/arie/work/monkey/racktests/failures/"
-  (dired-filename . "/home/arie/work/monkey/racktests/failures/6_shutdown_network_interface.py"))
- ("/home/arie/.bash_history" . 68886)
- ("/home/arie/.bashrc" . 3663)
- ("/home/arie/.config/flake8" . 32)
- ("/home/arie/abacus_work/abacus/py/strato/runtime/common/config.py" . 1662)
- ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/__init__.py" . 41)
- ("/home/arie/abacus_work/abacus/py/strato/runtime/nrad/vm.py" . 3533)
- ("/home/arie/abacus_work/abacusapi/py/strato/runtime/abacusapi/gradrpc/config.py" . 4431)
- ("/home/arie/resolv.conf" . 195)
- ("/home/arie/test.py" . 17)
- ("/home/arie/work/docker-registry/packaging/docker-registry.service" . 71)
- ("/home/arie/work/docker-registry/packaging/registry-pusher.service" . 95)
- ("/home/arie/work/docker-registry/packaging/registry-syncer.service" . 86)
- ("/home/arie/work/flycheck/doc/user/syntax-checkers.rst" . 6266)
- ("/home/arie/work/monkey/py/racktestplugins/services.py" . 1397)
- ("/home/arie/work/monkey/py/strato/tests/cluster.py" . 3824)
- ("/home/arie/work/monkey/py/strato/tests/iridiumtestcontroller.py" . 23724)
- ("/home/arie/work/monkey/tools/testredemption.py" . 4588)
- ("/home/arie/work/northbound/py/strato/northbound/api/resources/maintenance.py" . 753)
- ("/home/arie/work/postinstaller/py/strato/postinstaller/dockerregistry.py" . 715)
- ("/home/arie/work/rootfs-star/py/strato/installation/services/nodeservices.yaml" . 2881)
- ("/home/arie/work/rootfs-star/rpm_list.Makefile" . 1101)
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/registries/host.py" . 3709)
- ("/home/arie/work/strato_kv/infra/strato_kv/clustermanagement/stateflowsapi.py" . 592)
- ("/home/arie/work/strato_kv/py/strato/consul/consulhelpers.py" . 2922)
- ("/home/arie/work/strato_kv/py/strato/consul/main.py" . 130)
- ("/home/arie/work/strato_kv/py/strato/noded/stateflows.py" . 103)
- ("/home/arie/work/strato_kv/py/strato/nodedapi/nodedapimiddleware.py" . 487)
- ("/home/arie/work/strato_kv/setup.cfg" . 17)
- ("/home/arie/work/strato_kv/unittests/clusterd/test_servicedistributor_dynamics.py" . 805)
- ("/usr/local/bin/flake8" . 186)
- ("/usr/local/bin/pylint" . 553)
- ("/usr/local/lib/python2.7/dist-packages/hammock/exceptions.py" . 1214)
- ("/usr/local/lib/python2.7/dist-packages/pylint/__init__.py" . 1262))
+ ("/home/arie/work/harbour/harbour/harbour.conf" . 28))
